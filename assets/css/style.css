@@ -137,8 +137,3 @@ body {
     align-content: center;
     flex-direction: column;
 }
-
-.relative {
-    position: relative;
-}
-
