@@ -44,8 +44,9 @@ body {
     font-size: 1.5rem;
 }
 
-.navbar .navbar-toggler {
+.navbar .navbar-toggler i {
     border: 0;
+    padding: 4px 0 4px;
 }
 
 .nav-item {
@@ -69,8 +70,7 @@ body {
 
 .callout-img {
     position: relative;
-    margin-top: 3.65rem;
-    height: 92vh;
+    height: 100vh;
     background: url("..//images/main-image.jpg") no-repeat center center;
     background-size: cover;
     display: flex;
