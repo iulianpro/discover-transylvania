@@ -1,3 +1,18 @@
+var imgs = ['/assets/images/visit-1.jpg', '/assets/images/visit-2.jpg', '/assets/images/visit-3.jpg', '/assets/images/visit-4.jpg', '/assets/images/visit-5.jpg', '/assets/images/main-image.jpg'];
+
+$('.callout-img').delay(3000).fadeIn(750, mySlide());
+
+function mySlide() {
+    setTimeout(function () {
+        var url = imgs[imgs.push(imgs.shift()) - 1];
+        $('.callout-img').delay(3000).fadeOut(500, function () {
+            $(this).css('background-image', 'url(' + url + ')')
+            $(this).css('background-repeat', 'no-repeat')
+            $(this).css('background-position', 'center center')
+        }).fadeIn(750, mySlide())
+    });
+}
+
 $('.card-area').mouseenter(function () {
     $(this).children('div.overlay-d-none').css({ 'display': 'flex' })
 });
