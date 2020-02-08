@@ -5,11 +5,11 @@
 The main purpose of this website/project in the real world is to promote the Transylvania region, the place where everyone already knows, the legend of Count Dracula was born. Welcome to this page, feel free to read this documentation and browse the website and if you have any questions you can contact me through GitHub, I will answer with pleasure.
 
 > ## Table of Contents
-* [UX](#)
-    - [User stories](#)
-        - [Project goals](#)
-        - [Audience goals](#)
-        - [Website owner goals](#)
+* [UX](https://github.com/iulianpro/discover-transylvania#ux)
+    - [User stories](https://github.com/iulianpro/discover-transylvania#user-stories)
+        - [Project goals](https://github.com/iulianpro/discover-transylvania#project-goals)
+        - [Audience goals](https://github.com/iulianpro/discover-transylvania#audience-goals)
+        - [Website owner goals](https://github.com/iulianpro/discover-transylvania#website-owner-goals)
     - [Strategy](#)
     - [Scope](#)
     - [Structure](#)
@@ -41,9 +41,9 @@ Probably the whole world knows the legend of Count Dracule, the famous vampire f
 * To easy use a map to get an idea of where I can travel;
 * To can send a message if I want to find out more details about this destination;
 
-Mark Q: *I like to spend my vacations in less crowded places, in rustic places, where I can meet ordinary people, observe their daily habits, know the history of the places, the crafts kept from generation to generation, which is why such website that can provide good clues about such travel destination is great.*
+Mark Q: *"I like to spend my vacations in less crowded places, in rustic places, where I can meet ordinary people, observe their daily habits, know the history of the places, the crafts kept from generation to generation, which is why such website that can provide good clues about such travel destination is great."*
 
-Shellby S: *Nowadays, it is quite difficult to find a source of disinterested information and documentation, when the big trusts in this market promote their services through an aggressive marketing policy, selling more or less real promotions. . That's why I appreciate such a website that can offer you good tips for your next vacation destination.*
+Shellby S: *"Nowadays, it is quite difficult to find a source of disinterested information and documentation, when the big trusts in this market promote their services through an aggressive marketing policy, selling more or less real promotions. . That's why I appreciate such a website that can offer you good tips for your next vacation destination."*
 
 #### Website owner goals
 
