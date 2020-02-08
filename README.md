@@ -31,11 +31,11 @@ The main purpose of this website/project in the real world is to promote the Tra
 ### User stories
 #### Project goals
 
-Probably the whole world knows the legend of Count Dracule, the famous vampire from a distant and uncertain world called Transylvania, a character created by the famous Bram Stoker in the eponymous novel, about which there have been countless films, serials, comics and many more. Equally likely is the fact that many people do not know this area, today's Transylvania, a region of Romania with a rich historical heritage, wonderful landscapes, with a flora and fauna that does not exist today in other parts of Europe, with customs. ancestors, who also enchanted His Royal Highness, Prince of Wales, Charles. Through this project, the user will be awakened the interest to document and visit some other tourist attractions in Transylvania, besides the castle of Count Dracula, Bran.z
+Probably the whole world knows the legend of Count Dracula, the famous vampire from a distant and uncertain world called Transylvania, a character created by the famous Bram Stoker in the eponymous novel, about which there have been countless films, serials, comics and many more. Equally likely is the fact that many people do not know this area, today's Transylvania, a region of Romania with a rich historical heritage, wonderful landscapes, with a flora and fauna that does not exist today in other parts of Europe, with craftsmanship ancestors, who also enchanted *His Royal Highness, Prince of Wales, Charles*. Through this project, the user will be awakened the interest to document and visit some other tourist attractions in Transylvania, besides the castle of Count Dracula, Bran.
 
 #### Audience goals
 
-* Read relevant information that can help in documenting a possible hollyday;
+* Read relevant information that can help in documenting a possible holidays;
 * To see a landig page that will arouse my curiosity to navigate further;
 * To can easily access and navigate through the website;
 * To easy use a map to get an idea of where I can travel;
