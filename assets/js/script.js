@@ -6,7 +6,7 @@ function changeSlider() {
     setTimeout(function () {
         let path = imgs[imgs.push(imgs.shift()) - 1];
         $('.callout-img').delay(2000).fadeOut(350, function () {
-            $(this).css('background-image', 'url(/assets/images/' + path + ')')
+            $(this).css('background-image', 'url(assets/images/' + path + ')')
             $(this).css('background-repeat', 'no-repeat')
             $(this).css('background-position', 'center center')
         }).fadeIn(350, changeSlider())
