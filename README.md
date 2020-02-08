@@ -27,7 +27,7 @@ The main purpose of this website/project in the real world is to promote the Tra
     - [Acknowledgements](#)
 
 > ## UX
-###### [(back to table of content)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+
 ### User stories
 #### Project goals
 
@@ -50,3 +50,5 @@ Shellby S: *"Nowadays, it is quite difficult to find a source of disinterested i
 * Tourism promotion of the area where I was born, tourism means income for the community;
 * Gather information on what types of holidays people are looking for;
 * Receive contact details through use of contact form;
+
+###### [(back to table of content)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
