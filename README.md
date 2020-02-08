@@ -4,7 +4,7 @@
 
 The main purpose of this website/project in the real world is to promote the Transylvania region, the place where everyone already knows, the legend of Count Dracula was born. Welcome to this page, feel free to read this documentation and browse the website and if you have any questions you can contact me through GitHub, I will answer with pleasure.
 
-> ## Contents
+> ## Table of Contents
 * [UX](#)
     - [User stories](#)
         - [Project goals](#)
