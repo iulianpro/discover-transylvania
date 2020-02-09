@@ -1,3 +1,5 @@
+$(document).ready(function () {
+    
 const imgs = ['visit-1.jpg', 'visit-2.jpg', 'visit-3.jpg', 'visit-4.jpg', 'visit-5.jpg', 'main-image.jpg'];
 
 $('.callout-img').fadeIn(0, changeSlider());
@@ -22,3 +24,5 @@ $('.card-area').hover(function () {
     $('.card-body').css({ 'color': '#4d4d4d' })
 }
 );
+
+});
