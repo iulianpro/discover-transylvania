@@ -1,6 +1,6 @@
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 7,
+        zoom: 8,
         center: mainLocation
     });
 
@@ -10,8 +10,8 @@ function initMap() {
 let map;
 let infoLocation = [];
 let mainLocation = {
-    lat: 45.9852129,
-    lng: 24.6859225
+    lat: 46.23153292370858,
+    lng: 24.624755457043655
 };
 
 let markerPlace = [{
@@ -69,7 +69,8 @@ function addMarker() {
     for (let i = 0; i < markerPlace.length; i++) {
         let contentBlock = '<div><h4 class="text-center">' + markerPlace[i].nameLocation +
             '</h4><div><img class="imgContent" src="assets/images/' +
-            markerPlace[i].imgLocation + '"><p class="infoContent">' + markerPlace[i].contentLocation + '</p></div></div>';
+            markerPlace[i].imgLocation + '"><p class="infoContent">' +
+            markerPlace[i].contentLocation + '</p></div></div>';
 
         const marker = new google.maps.Marker({
             position: markerPlace[i].LatLng[0],
