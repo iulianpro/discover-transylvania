@@ -51,4 +51,4 @@ Probably the whole world knows the legend of Count Dracula, the famous vampire f
 * Gather information on what types of holidays people are looking for;
 * Receive contact details through use of contact form;
 
-###### [(back to table of content)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+###### [(back to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
