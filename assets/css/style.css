@@ -111,7 +111,7 @@ body {
     border: 1px solid #b9b9b9;
     border-radius: 15px;
     margin: 20px;
-    background-color: #C9FFE5;
+    background-color: #c9ffe5;
 }
 
 .img-custom {
@@ -143,18 +143,79 @@ body {
 
 .infoContent {
     color: #2b4438;
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 400;
     margin-bottom: 0;
-    padding-bottom: 15px;
     text-align: justify;
 }
 
+#infowindow h4 {
+    display: none;
+}
+
+#infowindow p:nth-child(2) {
+    padding-bottom: 15px;
+}
+
+#infowindow a {
+    text-decoration: none;
+    color: #782b1e;
+}
+
+#infowindow a:hover {
+    text-decoration: none;
+    color: #b32410;
+    font-weight: 500;
+}
+
 .imgContent {
+    display: none;
     max-width: 600px;
     max-height: 250px;
     margin-bottom: 10px;
     margin-right: 10px;
-    display: flex;
-    float: left;
+}
+
+.gm-style-iw.gm-style-iw-c {
+    background-color: #ffebe8;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.gm-style-iw-d {
+    overflow: hidden!important;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+.gm-ui-hover-effect img {
+    transform: scale(1.5);
+}
+
+@media (min-width: 768px) {
+    .imgContent {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.9rem;
+    }
+    .infoContent {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #infowindow h4 {
+        display: block;
+        color: #782b1e;
+        font-weight: 600;
+    }
+    .imgContent {
+        display: flex;
+        float: left;
+        margin-right: 10px;
+    }
+    .infoContent {
+        font-size: 1rem;
+    }
 }
