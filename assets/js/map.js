@@ -1,7 +1,17 @@
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 7.2,
-        center: mainLocation
+        center: mainLocation,
+        mapTypeControl: true,
+        mapTypeControlOptions: {
+            style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+            mapTypeIds: ['ROADMAP']
+        },
+        zoomControl: true,
+        zoomControlOptions: {
+            style: google.maps.ZoomControlStyle.SMALL,
+            position: google.maps.ControlPosition.RIGHT_CENTER
+        }
     });
 
     addMarker();
