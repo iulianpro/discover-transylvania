@@ -1,6 +1,6 @@
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 8,
+        zoom: 7.2,
         center: mainLocation
     });
 
@@ -10,18 +10,20 @@ function initMap() {
 let map;
 let infoLocation = [];
 let mainLocation = {
-    lat: 46.23153292370858,
-    lng: 24.624755457043655
+    lat: 46.48502588469381,
+    lng: 24.657045361236673
 };
 
 let markerPlace = [{
-    nameLocation: "Viscri",
+    nameLocation: "Viscri Fortified Church",
     LatLng: [{
         lat: 46.0548679,
         lng: 25.0885011
     }],
     imgLocation: "visit-1.jpg",
-    contentLocation: "Is part of Transylvania UNESCO World Heritage Site. It was built in 12th century being known as a place often visited by the Prince Charles."
+    contentLocationOne: "The fortified church in Viscri, Brașov county, was built in the 13th century on the basis of an old Roman basilica da-ting from the 12th century.",
+    contentLocationTwo: "The ensemble of the fortified evangelical church formed of the church, the fortified enclosure, with a defensive road, two towers, two bastions, a gate tower is a historical monument. The church was fortified in the 15th century and transformed into a fortified church with towers, bastions and two defensive walls. ",
+    redirectLink: "https://en.wikipedia.org/wiki/Viscri_fortified_church"
 },
 {
     nameLocation: "Sinaia",
@@ -70,7 +72,9 @@ function addMarker() {
         let contentBlock = '<div><h4 class="text-center">' + markerPlace[i].nameLocation +
             '</h4><div><img class="imgContent" src="assets/images/' +
             markerPlace[i].imgLocation + '"><p class="infoContent">' +
-            markerPlace[i].contentLocation + '</p></div></div>';
+            markerPlace[i].contentLocationOne + '</p><p class="infoContent">' +
+            markerPlace[i].contentLocationTwo + '<a target="_blank" href="' + 
+            markerPlace[i].redirectLink + '">(read more on Wikipedia)</a></p></div></div>';
 
         const marker = new google.maps.Marker({
             position: markerPlace[i].LatLng[0],
@@ -80,7 +84,7 @@ function addMarker() {
 
         const infoArea = new google.maps.InfoWindow({
             content: contentBlock,
-            maxWidth: 650
+            maxWidth: 640
         });
 
         marker.addListener('click', function () {
