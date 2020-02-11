@@ -54,7 +54,7 @@ let markerPlace = [{
         lng: 23.589161395502746
     }],
     imgLocation: "visit-4.jpg",
-    contentLocationOne: "The Roman Catholic Church of Saint Michael is one of the most representative monuments of the Gothic architecture of Transylvania, it is 70 meters long and with a tower height of 80 meters.",
+    contentLocationOne: "The Catholic Church of St. Michael's is one of the most representative monuments of the Gothic architecture of Transylvania, it's 70m long and 80m height.",
     contentLocationTwo: "Was build on a site that served as a cemetery and where there was a chapel dedicated to St. James. The main document attesting the existence of the edifice is one issued by the papal court in Avignon, from January 1349. The construction began in 1316 and was completed in 1390, followed by a second phase between 1410-1487. ",
     redirectLink: "https://en.wikipedia.org/wiki/St._Michael%27s_Church,_Cluj-Napoca"
 },
@@ -65,7 +65,7 @@ let markerPlace = [{
         lng: 25.367237292659574
     }],
     imgLocation: "visit-5.jpg",
-    contentLocationOne: "Bran Castle is in Bran at 25 km south-west of Brașov. It's a national monument and landmark in Romania. The fortress is on the Transylvanian side of the historical border with Wallachia.",
+    contentLocationOne: "The Castle is in Bran at 25 km sw of Brașov. It's a national monument museum. The fortress is on the Transylvanian side of the historical border with Wallachia.",
     contentLocationTwo: "Commonly known as Dracula's Castle it is often erroneously referred to as the home of the title character in Bram Stoker's Dracula. There is no evidence that Stoker knew anything about this castle which has only tangential associations with Vlad the Impaler, voivode of Wallachia, the putative inspiration for Dracula. ",
     redirectLink: "http://www.bran-castle.com/"
 },
@@ -88,11 +88,11 @@ window.onload = function () {
 
 function addMarker() {
     for (let i = 0; i < markerPlace.length; i++) {
-        let contentBlock = '<div><h4 class="text-center">' + markerPlace[i].nameLocation +
+        let contentBlock = '<div id="infowindow"><h4 class="text-center">' + markerPlace[i].nameLocation +
             '</h4><div><img class="imgContent" src="assets/images/' +
             markerPlace[i].imgLocation + '"><p class="infoContent">' +
             markerPlace[i].contentLocationOne + '</p><p class="infoContent">' +
-            markerPlace[i].contentLocationTwo + '<a target="_blank" href="' + 
+            markerPlace[i].contentLocationTwo + '<a target="_blank" href="' +
             markerPlace[i].redirectLink + '">(read more)</a></p></div></div>';
 
         const marker = new google.maps.Marker({
