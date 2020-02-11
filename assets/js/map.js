@@ -26,40 +26,59 @@ let markerPlace = [{
     redirectLink: "https://en.wikipedia.org/wiki/Viscri_fortified_church"
 },
 {
-    nameLocation: "Sinaia",
+    nameLocation: "The Royal Palace Peles Sinaia",
     LatLng: [{
         lat: 45.36002715,
         lng: 25.54266688425395
     }],
     imgLocation: "visit-2.jpg",
-    contentLocation: "Is part of Transylvania UNESCO World Heritage Site. It was built in 12th century being known as a place often visited by the Prince Charles."
+    contentLocationOne: "Peleș Castle is a palace in Sinaia, built between 1873 and 1914. Is currently owned by the Royal Family of Romania and houses the Peleș National Museum.",
+    contentLocationTwo: "Peleș Castle in Sinaia, the summer residence of the kings of Romania, was built at the will of King Carol I of Romania (1866-1914) and is one of the most important historical buildings in Romania, having a unique character and is one of the most important monuments of its kind in Europe in the second half of the nineteenth century. ",
+    redirectLink: "https://en.wikipedia.org/wiki/Pele%C8%99_Castle"
 },
 {
-    nameLocation: "Brasov",
+    nameLocation: "Sfatului Square and Black Church Brasov",
     LatLng: [{
         lat: 45.6424272,
         lng: 25.5885655
     }],
-    imgLocation: "visit-3.jpg",
-    contentLocation: "Is part of Transylvania UNESCO World Heritage Site. It was built in 12th century being known as a place often visited by the Prince Charles."
+    imgLocation: "visit-6.jpg",
+    contentLocationOne: "The Piata Sfatului was, in the Middle Ages, the place where fairs were organized in Brașov for both Saxon and Hungarian as well as for those who came from Romania.",
+    contentLocationTwo: "The most important building in this square is the Black Church. It is one of the most representative monuments of gothic architecture in Romania. It is considered to be the largest church in Romania. Due to its size, when it was completed in 1477, it received the title of the largest church between Vienna and Constantinople. ",
+    redirectLink: "https://en.wikipedia.org/wiki/Biserica_Neagr%C4%83"
 },
 {
-    nameLocation: "Cluj Napoca",
+    nameLocation: "St. Michael's Church Cluj",
     LatLng: [{
         lat: 46.77029470580725,
         lng: 23.589161395502746
     }],
     imgLocation: "visit-4.jpg",
-    contentLocation: "Is part of Transylvania UNESCO World Heritage Site. It was built in 12th century being known as a place often visited by the Prince Charles."
+    contentLocationOne: "The Roman Catholic Church of Saint Michael is one of the most representative monuments of the Gothic architecture of Transylvania, it is 70 meters long and with a tower height of 80 meters.",
+    contentLocationTwo: "Was build on a site that served as a cemetery and where there was a chapel dedicated to St. James. The main document attesting the existence of the edifice is one issued by the papal court in Avignon, from January 1349. The construction began in 1316 and was completed in 1390, followed by a second phase between 1410-1487. ",
+    redirectLink: "https://en.wikipedia.org/wiki/St._Michael%27s_Church,_Cluj-Napoca"
 },
 {
-    nameLocation: "Bran",
+    nameLocation: "Bran Dracula's Castle",
     LatLng: [{
         lat: 45.5150774,
         lng: 25.367237292659574
     }],
+    imgLocation: "visit-5.jpg",
+    contentLocationOne: "Bran Castle is in Bran at 25 km south-west of Brașov. It's a national monument and landmark in Romania. The fortress is on the Transylvanian side of the historical border with Wallachia.",
+    contentLocationTwo: "Commonly known as Dracula's Castle it is often erroneously referred to as the home of the title character in Bram Stoker's Dracula. There is no evidence that Stoker knew anything about this castle which has only tangential associations with Vlad the Impaler, voivode of Wallachia, the putative inspiration for Dracula. ",
+    redirectLink: "http://www.bran-castle.com/"
+},
+{
+    nameLocation: "Corvin Hunyadi Castle",
+    LatLng: [{
+        lat: 45.749141,
+        lng: 22.888279
+    }],
     imgLocation: "main-image.jpg",
-    contentLocation: "Is part of Transylvania UNESCO World Heritage Site. It was built in 12th century being known as a place often visited by the Prince Charles."
+    contentLocationOne: "The Corvin Castle, also called the Hunyadi Castle is considered one of the most beautiful castles in the world, being located in top 10 destinations in Europe",
+    contentLocationTwo: "The fortress was one of the largest and most famous properties of Iancu de Hunedoara, governor and regent of Hungary between 1446-1453, the father of the future king Matia Corvin. During the construction it underwent significant transformations, being both a strengthened strategic point and a feudal residence.",
+    redirectLink: "https://en.wikipedia.org/wiki/Corvin_Castle"
 }
 ];
 
@@ -74,7 +93,7 @@ function addMarker() {
             markerPlace[i].imgLocation + '"><p class="infoContent">' +
             markerPlace[i].contentLocationOne + '</p><p class="infoContent">' +
             markerPlace[i].contentLocationTwo + '<a target="_blank" href="' + 
-            markerPlace[i].redirectLink + '">(read more on Wikipedia)</a></p></div></div>';
+            markerPlace[i].redirectLink + '">(read more)</a></p></div></div>';
 
         const marker = new google.maps.Marker({
             position: markerPlace[i].LatLng[0],
