@@ -26,3 +26,39 @@ $(document).ready(function () {
     );
 
 });
+
+function sendMail(mailMeForm) {
+    let checkLname = document.forms["myForm"]["fname"].value;
+    let checkName = document.forms["myForm"]["name"].value;
+    let emailAdd = document.forms["myForm"]["emailaddress"].value;
+    let theMessage = document.forms["myForm"]["dtnewemail"].value;
+    if (checkLname == '') {
+        alert('First name must be filled out');
+        return false;
+    } else if (checkName == '') {
+        alert('Last name must be filled out');
+        return false;
+    } else if (emailAdd == '') {
+        alert('Email Addresse must be filled out');
+        return false;
+    } else if (theMessage == '') {
+        alert('What is your message?');
+        return false;
+    }
+
+    emailjs.send("gmail", "first_test_template", {
+        "from_name": mailMeForm.name.value,
+        "from_email": mailMeForm.emailaddress.value,
+        "project_request": mailMeForm.dtnewemail.value
+    })
+        .then(
+            function (response) {
+                console.log("SUCCESS", response);
+                alert('Your message was successfully sent');
+            },
+            function (error) {
+                console.log("FAILED", error);
+            }
+        );
+    return false;  // To block from loading a new page
+}
