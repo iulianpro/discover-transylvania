@@ -33,16 +33,16 @@ function sendMail(mailMeForm) {
     let emailAdd = document.forms["myForm"]["emailaddress"].value;
     let theMessage = document.forms["myForm"]["dtnewemail"].value;
     if (checkLname == '') {
-        alert('First name must be filled out');
+        swal('Atention!', 'First name must be filled out');
         return false;
     } else if (checkName == '') {
-        alert('Last name must be filled out');
+        swal('Atention!', 'Last name must be filled out');
         return false;
     } else if (emailAdd == '') {
-        alert('Email Addresse must be filled out');
+        swal('Atention!', 'Email Address must be filled out');
         return false;
     } else if (theMessage == '') {
-        alert('What is your message?');
+        swal('Atention!', 'What is your message?');
         return false;
     }
 
@@ -54,7 +54,7 @@ function sendMail(mailMeForm) {
         .then(
             function (response) {
                 console.log("SUCCESS", response);
-                alert('Your message was successfully sent');
+                swal('Thank you', 'Your message was successfully sent', 'success');
             },
             function (error) {
                 console.log("FAILED", error);
