@@ -144,7 +144,7 @@ body {
 
 .infoContent {
     color: #2b4438;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     font-weight: 400;
     margin-bottom: 0;
     text-align: justify;
@@ -154,8 +154,9 @@ body {
     display: none;
 }
 
-#infowindow p:nth-child(2) {
-    padding-bottom: 15px;
+#infowindow p:nth-child(1) {
+    padding-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 #infowindow a {
@@ -169,12 +170,26 @@ body {
     font-weight: 500;
 }
 
-.imgContent {
-    display: none;
-    max-width: 600px;
+.imgbox {
+    display: flex;
+    float: left;
+    max-width: 400px;
     max-height: 250px;
     margin-bottom: 10px;
     margin-right: 10px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.imgContent {
+    display: none;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.imgbox img:hover {
+    transform: scale(1.8);
 }
 
 .gm-style-iw.gm-style-iw-c {
@@ -201,7 +216,7 @@ body {
         font-size: 0.9rem;
     }
     .infoContent {
-        font-size: 0.9rem;
+        font-size: 0.98rem;
     }
 }
 
