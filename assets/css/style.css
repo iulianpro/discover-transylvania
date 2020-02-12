@@ -247,10 +247,10 @@ body {
     padding: 6px;
     border-radius: 0.25rem;
     font-weight: 300;
-    background-color: #ffffff;
+    background-color: #c9ffe5;
 }
 
 .bttn:hover {
-    background-color: #c9ffe5;
+    background-color: #ffebe8;
     font-weight: 500;
 }
