@@ -39,7 +39,7 @@ function sendMail(mailMeForm) {
         swal('Nice to meet you ' + checkLname, 'I\'d love to know your family name :)');
         return false;
     } else if (emailAdd == '') {
-        swal(checkName + ', really? :)', 'You have to be the star of the movie that I saw last week :). Okay, at what email should I respond to you?');
+        swal(checkLname + ' ' + checkName + ', really? :)', 'You have to be the star of the movie that I saw last week :). Okay, at what email should I respond to you?');
         return false;
     } else if (theMessage == '') {
         swal('Come on... ', 'Admit that, it fascinated you the story of the vampires, isn\'t it? I can\'t wait to find out your curiosity :)');
