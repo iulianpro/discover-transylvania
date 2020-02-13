@@ -269,3 +269,28 @@ body {
     background-color: #ffebe8;
     font-weight: 500;
 }
+
+.swal-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.swal-text {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.swal-footer {
+    text-align: center;
+}
+
+.swal-button {
+    background-color: #2b4438;
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: #c9ffe5;
+    color: #4d4d4d;
+    box-shadow: none;
+}
