@@ -294,3 +294,11 @@ body {
     color: #4d4d4d;
     box-shadow: none;
 }
+
+/* footer section */
+
+.bg-footer {
+    background-color: #2b4438;
+    color: #f9f9f9;
+    padding-bottom: 3rem;
+}
