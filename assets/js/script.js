@@ -33,16 +33,16 @@ function sendMail(mailMeForm) {
     let emailAdd = document.forms["myForm"]["emailaddress"].value;
     let theMessage = document.forms["myForm"]["dtnewemail"].value;
     if (checkLname == '') {
-        swal('Atention!', 'First name must be filled out');
+        swal('Hey buddy', 'I\'m Julian, what is your firs name? :)');
         return false;
     } else if (checkName == '') {
-        swal('Atention!', 'Last name must be filled out');
+        swal('Nice to meet you ' + checkLname, 'I\'d love to know your family name :)');
         return false;
     } else if (emailAdd == '') {
-        swal('Atention!', 'Email Address must be filled out');
+        swal(checkName + ', really? :)', 'You have to be the star of the movie that I saw last week :). Okay, at what email should I respond to you?');
         return false;
     } else if (theMessage == '') {
-        swal('Atention!', 'What is your message?');
+        swal('Come on... ', 'Admit that, it fascinated you the story of the vampires, isn\'t it? I can\'t wait to find out your curiosity :)');
         return false;
     }
 
@@ -54,7 +54,7 @@ function sendMail(mailMeForm) {
         .then(
             function (response) {
                 console.log("SUCCESS", response);
-                swal('Thank you', 'Your message was successfully sent', 'success');
+                swal('Your message is on the way ' + checkLname, 'I was glad to meet you, I\'ll come back to you with an answer, keep in touch and have a lovely day :)', 'success');
             },
             function (error) {
                 console.log("FAILED", error);
