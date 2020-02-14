@@ -33,16 +33,16 @@ function sendMail(mailMeForm) {
     let emailAdd = document.forms["myForm"]["emailaddress"].value;
     let theMessage = document.forms["myForm"]["dtnewemail"].value;
     if (checkLname == '') {
-        swal('Hey buddy', 'I\'m Julian, what is your firs name? :)');
+        swal('Hey buddy', 'What is your firs name?');
         return false;
     } else if (checkName == '') {
-        swal('Nice to meet you ' + checkLname, 'I\'d love to know your family name :)');
+        swal('Nice to meet you ' + checkLname, 'We\'d love to know your family name');
         return false;
     } else if (emailAdd == '') {
-        swal(checkLname + ' ' + checkName + ', really? :)', 'You have to be the star of the movie that I saw last week :). Okay, at what email should I respond to you?');
+        swal('Okay ' + checkLname + ' ' + checkName, 'At what email address should we respond to you?');
         return false;
     } else if (theMessage == '') {
-        swal('Come on... ', 'Admit that, it fascinated you the story of the vampires, isn\'t it? I can\'t wait to find out your curiosity :)');
+        swal('One more thing', 'What is your curiosity? We can\'t wait to find out.');
         return false;
     }
 
@@ -54,7 +54,7 @@ function sendMail(mailMeForm) {
         .then(
             function (response) {
                 console.log("SUCCESS", response);
-                swal('Your message is on the way ' + checkLname, 'I was glad to meet you, I\'ll come back to you with an answer, keep in touch and have a lovely day :)', 'success');
+                swal('Your message is on the way ' + checkLname, 'We was glad to meet you, We\'ll come back to you with an answer, have a lovely day :)', 'success');
             },
             function (error) {
                 console.log("FAILED", error);
