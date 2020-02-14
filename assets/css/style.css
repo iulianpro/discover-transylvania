@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700');
+
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 /* general */
 
 html {
@@ -29,7 +32,8 @@ body {
 
 .bgr-navbar {
     background-color: #2b4438;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.55);
+            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.55);
 }
 
 .navbar-brand {
@@ -74,9 +78,15 @@ body {
     height: 100vh;
     background: url("..//images/main-image.jpg") no-repeat center center;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .opaque-overlay {
@@ -131,9 +141,15 @@ body {
     color: #f9f9f9;
     padding: 1rem;
     border-radius: 15px;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 /* destinations (map) section */
@@ -171,6 +187,8 @@ body {
 }
 
 .imgbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     float: left;
     max-width: 400px;
@@ -185,11 +203,15 @@ body {
     display: none;
     width: 100%;
     height: auto;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
 }
 
 .imgbox img:hover {
-    transform: scale(1.8);
+    -webkit-transform: scale(1.8);
+        -ms-transform: scale(1.8);
+            transform: scale(1.8);
 }
 
 .gm-style-iw.gm-style-iw-c {
@@ -205,7 +227,9 @@ body {
 }
 
 .gm-ui-hover-effect img {
-    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
 }
 
 @media (min-width: 768px) {
@@ -227,6 +251,8 @@ body {
         font-weight: 600;
     }
     .imgContent {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         float: left;
         margin-right: 10px;
@@ -292,7 +318,8 @@ body {
 .swal-button:not([disabled]):hover {
     background-color: #c9ffe5;
     color: #4d4d4d;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 /* footer section */
@@ -319,7 +346,8 @@ body {
 }
 
 ul {
-    padding-inline-start: 0;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
     list-style: none;
 }
 
