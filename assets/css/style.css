@@ -323,7 +323,7 @@ ul {
     list-style: none;
 }
 
-ul li {
+ul.footer-menu li {
     display: inline;
     padding: 0 0.5rem;
     font-weight: 200;
