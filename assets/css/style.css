@@ -106,13 +106,22 @@ body {
 
 .callout h1 {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.75rem;
     margin-bottom: 1.5rem;
 }
 
 .callout h2 {
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .callout h1 {
+        font-size: 3.5rem;
+    }
+    .callout h2 {
+        font-size: 2rem;
+    }
 }
 
 /* visit section */
