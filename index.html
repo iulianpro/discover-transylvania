@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- External Bootstrap framework and Fontawesome library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="icon" href="favicon.ico" type="image/gif" />
     <title>Discover Transylvania</title>
+    <!-- External javascript email service -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
     <script type="text/javascript">
         (function () {
@@ -20,11 +22,14 @@
 
 <body>
     <header id="home">
+        <!-- Bootstrap navbar -->
         <nav class="navbar navbar-dark bgr-navbar navbar-expand-md fixed-top">
+            <!-- Logo, brand and toggler button -->
             <a class="navbar-brand" href="index.html"><i class="fas fa-chess-rook"></i>Discover Transylvania</a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavItem"
                 aria-controls="navbarNavItem" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i></button>
+            <!-- Main nav links -->
             <div class="collapse navbar-collapse" id="navbarNavItem">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mr-2"><a class="nav-link" href="#home">Home</a></li>
@@ -35,7 +40,7 @@
             </div>
         </nav>
     </header>
-
+    <!-- Landing screen -->
     <section class="container-fluid callout-img p-0" id="main-image">
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
@@ -47,9 +52,10 @@
             </div>
         </div>
     </section>
-
+    <!-- Visit section split it in two columns, left column split it in others two rows and columns -->
     <section class="container-fluid section-site" id="visit">
         <div class="row align-items-stretch section-content no-gutters">
+            <!-- Left column -->
             <div class="col-md-6">
                 <div class="row no-gutters">
                     <div class="col-lg-6 mb-2 p-0">
@@ -59,6 +65,7 @@
                             <div class="card-body">
                                 <p class="card-text text-center">Viscri fortified church</p>
                             </div>
+                            <!-- Visible on js hover function -->
                             <div class="overlay-d-none">
                                 <p>Is a fortified church in Viscri, Romania.</p>
                                 <p class="d-lg-none d-xl-block">
@@ -83,6 +90,7 @@
                             <div class="card-body">
                                 <p class="card-text text-center">The Royal Palace Peles Sinaia</p>
                             </div>
+                            <!-- Visible on js hover function -->
                             <div class="overlay-d-none">
                                 <p>Peles Castle is located in Sinaia, Prahova Valley</p>
                                 <p class="d-lg-none d-xl-block">
@@ -110,6 +118,7 @@
                             <div class="card-body">
                                 <p class="card-text text-center">Sfatului Square Brasov</p>
                             </div>
+                            <!-- Visible on js hover function -->
                             <div class="overlay-d-none">
                                 <p>It is a place full of history in the center of Brasov.</p>
                                 <p class="d-lg-none d-xl-block">
@@ -136,6 +145,7 @@
                             <div class="card-body">
                                 <p class="card-text text-center">St. Michael's Church Cluj</p>
                             </div>
+                            <!-- Visible on js hover function -->
                             <div class="overlay-d-none">
                                 <p>It is located in the center of Cluj-Napoca.</p>
                                 <p class="d-lg-none d-xl-block">
@@ -156,6 +166,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Right column -->
             <div class="col-md-6">
                 <div class="card-area shadow">
                     <img class="img-fluid img-custom" src="assets/images/visit-5.jpg" alt="test-1">
@@ -173,6 +184,7 @@
                             museum exhibiting traditional Romanian peasant structures (cottages, water-driven
                             machinery etc.) from the Bran region.</p>
                     </div>
+                    <!-- Visible on js hover function -->
                     <div class="overlay-d-none">
                         <h4 class="text-center">Bran Dracula's Castle</h4>
                         <p class="card-text">Bran Castle is in Bran at 25 km southwest of
@@ -199,7 +211,7 @@
             </div>
         </div>
     </section>
-
+    <!-- Destination section (map) -->
     <section class="container-fluid section-site" id="destinations">
         <div class="row">
             <div class="col">
@@ -207,8 +219,9 @@
             </div>
         </div>
     </section>
-
+    <!-- Contact section -->
     <section class="container-fluid section-site bg-contact" id="contact">
+        <!-- Header form -->
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
                 <p class="text-center" id="contact-title">Get in touch with us</p>
@@ -216,6 +229,7 @@
                     we'll respond as soon as possible.</p>
             </div>
         </div>
+        <!-- Content form -->
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
                 <form name="myForm" onsubmit="return sendMail(this);">
@@ -247,14 +261,17 @@
             </div>
         </div>
     </section>
-
+    <!-- Footer section -->
     <footer class="container-fluid bg-footer">
+        <!-- Design line -->
         <div class="row justify-content-center no-gutters">
             <div class="col">
                 <div class="footer-line"></div>
             </div>
         </div>
+        <!-- Footer content -->
         <div class="row justify-content-center">
+            <!-- Left footer -->
             <div class="col-md-6">
                 <ul class="footer-menu">
                     <li><a href="#home">Home</a></li>
@@ -263,27 +280,31 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
+            <!-- Right footer -->
             <div class="col-md-6">
                 <ul class="footer-menu">
                     <li><a href="https://www.instagram.com/explore/tags/transylvania/" target="_blank"><i
-                                class="fab fa-instagram"></i></a></li>
+                                class="fab fa-instagram"></i></a>
+                    </li>
                     <li><a href="https://www.facebook.com/TransilvaniaMea/" target="_blank"><i
-                                class="fab fa-facebook-square"></i></a></li>
+                                class="fab fa-facebook-square"></i></a>
+                    </li>
                     <li><a href="https://twitter.com/in_transilvania" target="_blank"><i
-                                class="fab fa-twitter-square"></i></a></li>
+                                class="fab fa-twitter-square"></i></a>
+                    </li>
                     <li><a href="https://www.youtube.com/watch?v=J9N08yMI6PA" target="_blank"><i
-                                class="fab fa-youtube-square"></i></a></li>
+                                class="fab fa-youtube-square"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>
     </footer>
-
+    <!-- External Bootstrap, jQuery and Sweet Alert frameworks -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script
-        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
+    <!-- External Google Maps -->
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCp_wiETy7ouZq-5pfF9TnVZVkAG9-3Dp8&callback=initMap"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
