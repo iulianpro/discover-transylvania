@@ -11,26 +11,39 @@ $(document).ready(function () {
         setTimeout(function () {
             let path = imgs[imgs.push(imgs.shift()) - 1];
             $('.callout-img').delay(2000).fadeOut(350, function () {
-                $(this).css('background-image', 'url(assets/images/' + path + ')')
-                $(this).css('background-repeat', 'no-repeat')
-                $(this).css('background-position', 'center center')
-            }).fadeIn(350, changeSlider())
+                $(this).css('background-image', 'url(assets/images/' + path + ')');
+                $(this).css('background-repeat', 'no-repeat');
+                $(this).css('background-position', 'center center');
+            }).fadeIn(350, changeSlider());
         });
     }
 
-    // function to targeting DOM element where to show overlay content, touch screen icon and hide card body text
+    // function to targeting DOM element where to show overlay content and hide card body text
     $('.card-area').hover(function () {
-        $(this).children('.overlay-d-none').css({ 'display': 'flex' })    // over
-        $(this).children('.card-body').css({ 'color': '#c0f8ea' })
-        $(this).children('.touch-icon').css({ 'display': 'none' })
+        $(this).children('.overlay-d-none').css({ 'display': 'flex' });    // over
+        $(this).children('.card-body').css({ 'color': '#c0f8ea' });
 
     }, function () {
-        $('.overlay-d-none').css({ 'display': 'none' })    // out
-        $('.card-body').css({ 'color': '#4d4d4d' })
-        $('.touch-icon').css({ 'display': 'block' })
-    }
-    );
+        $('.overlay-d-none').css({ 'display': 'none' });    // out
+        $('.card-body').css({ 'color': '#4d4d4d' });
+    });
 
+    // function to targeting DOM element to show/hide touch screen icon in xs, sm and md displays and hide in lg and xl displays
+    function hideTouchIcon(icon) {
+        if (icon.matches) {
+            $('.touch-icon').css({ 'display': 'none' });
+        } else {
+            $('.card-area').hover(function () {
+                $(this).children('.touch-icon').css({ 'display': 'none' });
+            }, function () {
+                $('.touch-icon').css({ 'display': 'block' });
+            });
+        }
+    }
+
+    let icon = window.matchMedia('(min-width: 992px)');
+    hideTouchIcon(icon);
+    icon.addListener(hideTouchIcon);
 });
 
 // function to send email from form with external js EmailJS
