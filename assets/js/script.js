@@ -18,10 +18,12 @@ $(document).ready(function () {
     $('.card-area').hover(function () {
         $(this).children('.overlay-d-none').css({ 'display': 'flex' })    // over
         $(this).children('.card-body').css({ 'color': '#c0f8ea' })
+        $(this).children('.touch-icon').css({ 'display': 'none' })
 
     }, function () {
         $('.overlay-d-none').css({ 'display': 'none' })    // out
         $('.card-body').css({ 'color': '#4d4d4d' })
+        $('.touch-icon').css({ 'display': 'block' })
     }
     );
 

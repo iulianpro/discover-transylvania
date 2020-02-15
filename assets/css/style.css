@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700');
-
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
 /* general */
@@ -33,7 +32,7 @@ body {
 .bgr-navbar {
     background-color: #2b4438;
     -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.55);
-            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.55);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.55);
 }
 
 .navbar-brand {
@@ -82,11 +81,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .opaque-overlay {
@@ -139,6 +138,15 @@ body {
     border-top-right-radius: 15px;
 }
 
+.touch-icon {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
 .overlay-d-none {
     display: none;
     position: absolute;
@@ -152,14 +160,14 @@ body {
     font-size: 0.85rem;
     border-radius: 15px;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 /* destinations (map) section */
@@ -220,8 +228,8 @@ body {
 
 .imgbox img:hover {
     -webkit-transform: scale(1.8);
-        -ms-transform: scale(1.8);
-            transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
 }
 
 .gm-style-iw.gm-style-iw-c {
@@ -238,8 +246,8 @@ body {
 
 .gm-ui-hover-effect img {
     -webkit-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-            transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 @media (min-width: 768px) {
@@ -329,7 +337,7 @@ body {
     background-color: #c9ffe5;
     color: #4d4d4d;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 /* footer section */
@@ -357,7 +365,7 @@ body {
 
 ul {
     -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    padding-inline-start: 0;
     list-style: none;
 }
 
