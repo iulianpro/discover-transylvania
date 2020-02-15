@@ -2,7 +2,7 @@
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 7.2,
+        zoom: 7.9,
         center: mainLocation,
         mapTypeControl: true,
         mapTypeControlOptions: {
