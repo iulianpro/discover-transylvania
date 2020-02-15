@@ -170,7 +170,7 @@ body {
     flex-direction: column;
 }
 
-/* destinations (map) section */
+/* destinations section (map) */
 
 #map {
     height: 600px;
@@ -232,6 +232,8 @@ body {
     transform: scale(1.8);
 }
 
+/* styled google map classes */
+
 .gm-style-iw.gm-style-iw-c {
     background-color: #ffebe8;
     padding-top: 20px;
@@ -249,6 +251,8 @@ body {
     -ms-transform: scale(1.5);
     transform: scale(1.5);
 }
+
+/* end styled google map classes */
 
 @media (min-width: 768px) {
     .imgContent {
@@ -314,6 +318,8 @@ body {
     font-weight: 500;
 }
 
+/* styled external sweet alert classes */
+
 .swal-title {
     font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
@@ -339,6 +345,8 @@ body {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+/* end styled external sweet alert classes */
 
 /* footer section */
 
