@@ -81,4 +81,13 @@ The website has been structured as a single page containing several sections, Ho
 * [Desktop wireframes](https://github.com/iulianpro/discover-transylvania/blob/master/wireframes/Descktop%20-%20DT.png);
 * [Multi-device screenshot](https://github.com/iulianpro/discover-transylvania/blob/master/wireframes/Multi-devices-DT.png);
 
+### Surface
+
+The color scheme chosen by me is also a minimalist one. The main color used is ```#2b4438```and the color palette was generated using the Adobe Color tool. Color palette used is:
+
+* ![#2b4438](https://placehold.it/75x30) - #782b1e
+* ![#c9ffe5](https://placehold.it/75x30) - #c9ffe5
+* ![#ffebe8](https://placehold.it/75x30) - #ffebe8
+* ![#782b1e](https://placehold.it/75x30) - #782b1e
+
 ###### [(back to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
