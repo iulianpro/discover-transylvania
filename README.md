@@ -90,4 +90,20 @@ The color scheme chosen by me is also a minimalist one. The main color used is `
 * ![#ffebe8](https://placehold.it/75x20/ffebe8/ffebe8) - #ffebe8
 * ![#782b1e](https://placehold.it/75x20/782b1e/782b1e) - #782b1e
 
-###### [(back to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+
+## Features
+
+This v.01 version of the website has some brief features so that user can find general information about Transylvania and locations that be worth to visit. In the future, the website will offer more functionalities such as a section with a more detailed presentation of the places to visit but also others that I have detailed below.
+
+### Existing Features
+
+* Visit - In this section the user meets some of the most appreciated tourist locations in Transylvania, finding some brief information about them. Also, the user can discover more details (displayed overlay) if he covers the card with the mouse in the big screens or if he touches it in the touch screens. To notify the user of the existence of this feature, a suggestive icon is displayed in the top right corner of each card only on the xs, sm and md screens.
+* Destinations - This section is built with JavaScript Maps API. The five locations presented in the previous section are located on the map so that the user can form an idea about their location. The main feature is the possibility to interact with this map. The user can click on the markers of the five locations, the result being the display of information windows. In these windows the user can read information about the respective locations but can also see an image of them.
+* Contact - In this section the user has the possibility to send an email to request other information through a form created in Boostrsp. The effective message sending functionality is provided by an external EmailJS resource that works with JavaScript. Also, the JS code checks and validates if the user has filled all the fields of the form. Otherwise, through another external resource, Sweet Alert, the user is warned through a frendly formulation that they must fill the other fields as well. Once all fields are filled, the same Sweet Alert displays a successful send message on the screen.
+
+### Left to Implement
+
+As I said above, in the v.02 website version I will include more functionalities such as a section with a more detailed presentation of places to visit, presentation of locations in the surroundings of those already presented, ways to reach them, details about accommodation places, restaurants, cafes, different cultural events but also others.
+
+###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
