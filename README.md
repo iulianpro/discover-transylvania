@@ -73,4 +73,12 @@ The structure of this website includes several sections, functionalities with wh
 
 **Footer** is a very simple one through which the user has access at hand to the website menu and through which he can also access the social media pages of the Transylvania region of Romania.
 
+### Skeleton
+
+The website has been structured as a single page containing several sections, Home (landig page), Visit, Destinations, Contact and of course Footer. Wireframes for each screen type can be viewed here:
+* [Mobile wireframes](https://github.com/iulianpro/discover-transylvania/blob/master/wireframes/Mobile%20-%20DT.png);
+* [Tablet wireframes](https://github.com/iulianpro/discover-transylvania/blob/master/wireframes/Tablet%20-%20DT.png);
+* [Desktop wireframes](https://github.com/iulianpro/discover-transylvania/blob/master/wireframes/Descktop%20-%20DT.png);
+* [Multi-device screenshot](https://github.com/iulianpro/discover-transylvania/blob/master/wireframes/Multi-devices-DT.png);
+
 ###### [(back to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
