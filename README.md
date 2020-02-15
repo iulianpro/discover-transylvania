@@ -13,7 +13,7 @@ The main purpose of this website/project in the real world is to promote the Tra
     - [Strategy](https://github.com/iulianpro/discover-transylvania#strategy)
     - [Scope](https://github.com/iulianpro/discover-transylvania#scope)
     - [Structure](https://github.com/iulianpro/discover-transylvania#structure)
-    - [Skeleton](#)
+    - [Skeleton](https://github.com/iulianpro/discover-transylvania#skeleton)
     - [Surface](#)
 * [Features](#)
     - [Existing Features](#)
