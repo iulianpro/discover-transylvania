@@ -1,9 +1,12 @@
 $(document).ready(function () {
 
+    // defined images slide array
     const imgs = ['visit-1.jpg', 'visit-2.jpg', 'visit-3.jpg', 'visit-4.jpg', 'visit-5.jpg', 'main-image.jpg'];
 
+    // targeting DOM element where to show slide
     $('.callout-img').fadeIn(0, changeSlider());
 
+    // function to show images in continuously slide
     function changeSlider() {
         setTimeout(function () {
             let path = imgs[imgs.push(imgs.shift()) - 1];
@@ -15,6 +18,7 @@ $(document).ready(function () {
         });
     }
 
+    // function to targeting DOM element where to show overlay content, touch screen icon and hide card body text
     $('.card-area').hover(function () {
         $(this).children('.overlay-d-none').css({ 'display': 'flex' })    // over
         $(this).children('.card-body').css({ 'color': '#c0f8ea' })
@@ -29,11 +33,14 @@ $(document).ready(function () {
 
 });
 
+// function to send email from form with external js EmailJS
 function sendMail(mailMeForm) {
     let checkLname = document.forms["myForm"]["fname"].value;
     let checkName = document.forms["myForm"]["name"].value;
     let emailAdd = document.forms["myForm"]["emailaddress"].value;
     let theMessage = document.forms["myForm"]["dtnewemail"].value;
+
+    // validate input form
     if (checkLname == '') {
         swal('Hey buddy', 'What is your firs name?');
         return false;
@@ -48,6 +55,7 @@ function sendMail(mailMeForm) {
         return false;
     }
 
+    // send email
     emailjs.send("gmail", "first_test_template", {
         "from_name": mailMeForm.name.value,
         "from_email": mailMeForm.emailaddress.value,
