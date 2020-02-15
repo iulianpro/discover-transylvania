@@ -1,3 +1,5 @@
+// initialization and controls customization google map
+
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 7.2,
@@ -16,6 +18,8 @@ function initMap() {
 
     addMarker();
 }
+
+// define variables for map
 
 let map;
 let infoLocation = [];
@@ -96,6 +100,8 @@ window.onload = function () {
     initMap();
 };
 
+// function that implements in the map markers, infowindow and listener events for each location
+
 function addMarker() {
     for (let i = 0; i < markerPlace.length; i++) {
         let contentBlock = '<div id="infowindow"><h4 class="text-center">' + markerPlace[i].nameLocation +
@@ -123,6 +129,8 @@ function addMarker() {
         });
     }
 }
+
+// function for automatically closing the previously opened card when the user clicks on a new marker
 
 function closePreviousArea() {
     if (infoLocation.length > 0) {
