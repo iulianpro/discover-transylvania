@@ -29,8 +29,8 @@ $(document).ready(function () {
     });
 
     // function to targeting DOM element to show/hide touch screen icon in xs, sm and md displays and hide in lg and xl displays
-    function hideTouchIcon(icon) {
-        if (icon.matches) {
+    function hideTouchIcon(minWidth) {
+        if (minWidth.matches) {
             $('.touch-icon').css({ 'display': 'none' });
         } else {
             $('.card-area').hover(function () {
@@ -41,9 +41,9 @@ $(document).ready(function () {
         }
     }
 
-    let icon = window.matchMedia('(min-width: 992px)');
-    hideTouchIcon(icon);
-    icon.addListener(hideTouchIcon);
+    let minWidth = window.matchMedia('(min-width: 992px)');
+    hideTouchIcon(minWidth);
+    minWidth.addListener(hideTouchIcon);
 });
 
 // function to send email from form with external js EmailJS
