@@ -21,10 +21,10 @@ The main purpose of this website/project in the real world is to promote the Tra
 * [Technologies Used](https://github.com/iulianpro/discover-transylvania#technologies-used)
 * [Testing](#)
 * [Deployment](https://github.com/iulianpro/discover-transylvania#deployment)
-* [Credits](#)
-    - [Content](#)
-    - [Media](#)
-    - [Acknowledgements](#)
+* [Credits](https://github.com/iulianpro/discover-transylvania#credits)
+    - [Content](https://github.com/iulianpro/discover-transylvania#content)
+    - [Media](https://github.com/iulianpro/discover-transylvania#media)
+    - [Acknowledgements](https://github.com/iulianpro/discover-transylvania#acknowledgements)
 
 > ## UX
 
@@ -183,3 +183,5 @@ The texts that were used in this project are in fully from Wikipedia. The websit
 To create this website, an inspiration but at the same time a source from which I learned many technical elements, was [W3schools](https://www.w3schools.com/). I would also like to thank Twitter for creating Bootstrap which is a magic framework. I would also like to thank the Code Institute instructors who are doing a great job and from where I learned a lot in just a few months. I would also like to thank the colleagues with whom I had discussions on the Slack channels, from where I also had to learn. And last but not least, I thank my mentor [Simen Daehlin](https://github.com/Eventyret).
 
 *This website was created for educational purposes, February 2020.*
+
+###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
