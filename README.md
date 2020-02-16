@@ -19,7 +19,7 @@ The main purpose of this website/project in the real world is to promote the Tra
     - [Existing Features](https://github.com/iulianpro/discover-transylvania#existing-features)
     - [Left to Implement](https://github.com/iulianpro/discover-transylvania#left-to-implement)
 * [Technologies Used](https://github.com/iulianpro/discover-transylvania#technologies-used)
-* [Testing](#)
+* [Testing](https://github.com/iulianpro/discover-transylvania#testing)
 * [Deployment](https://github.com/iulianpro/discover-transylvania#deployment)
 * [Credits](https://github.com/iulianpro/discover-transylvania#credits)
     - [Content](https://github.com/iulianpro/discover-transylvania#content)
