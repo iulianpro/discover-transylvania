@@ -146,7 +146,28 @@ To create this website, several technologies were used, as well as some framewor
 ###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
 > ## Testing
-(under construction)
+
+The website was tested both after the development of each section separately but also after its completion. I tested all the functionality in the main browsers that run on several operating systems: Chrome, Firefox, Opera, Microsoft Edge and Safari, in Windows 10, Mac OSX 10.14, Android and iOS operating systems, both physically on different personal and friends devices, as well as the [Cross Browser Testing tool](https://app.crossbrowsertesting.com/test-center). For full responsiveness, for the whole site, I used Bootstrap 4.4.1.
+
+Testing during section development was done primarily with Chrome DevTools, making sure each element works correctly and optimally, including responsiveness across devices. For navbar, I tested the functionality of all links, including the site brand. I also tested the color change of links at hover and toggle and collapse functioning in small devices. As for main image, considering it is a slider created in JavaScript, I checked and tested in Chrome DevTools whether the functionality is optimal, whether the JS console displays errors of the script or not. The result was positive, with no errors displayed. Also, I tested the behavior and functionality of the script across devices and browsers, I did not register errors or malfunctions.
+
+**Visit Section** has been tested across devices and browsers, both physically and using an online tool, Cross Browser Testing tool. Due to the structure that I also have, respectively two columns, where the first contains two other Boostrap rows, this section raised some challenge in the sense of disproportional display in different screen sizes. To balance this, two of the four cards are not displayed in these screens.
+
+I also checked and tested the optimal functioning of the divs overlay display when user hover with mouse or when touching the cards on the touch screens. The result was positive, the effect is functional across devices and browsers. After I decided to implement the icon that suggests the user to touch the screen for the website to display the overlay text, I had to improve the javascript code so that displaying and / or hiding them would be functional only for touch screens and hidden in large screens, desktops and laptops, (```min-width: 992px```). To accomplish this, the respective javascript code segment was moved inside the function that checks the size of the user's screen, the result being the desired one.
+```
+function hideTouchIcon(minWidth) {
+    if (minWidth.matches) {
+        $('.touch-icon').css({ 'display': 'none' });
+    } else {
+        $('.card-area').hover(function () {
+            $(this).children('.touch-icon').css({ 'display': 'none' });
+        }, function () {
+            $('.touch-icon').css({ 'display': 'block' });
+        });
+    }
+}
+```
+
 ###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
 > ## Deployment
