@@ -165,5 +165,21 @@ To run locally, you can clone this repository from GitHub, using the green "Clon
 ```
 git clone https://github.com/iulianpro/discover-transylvania.git
 ```
-
 ###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+
+## Credits
+
+### Content
+The texts that were used in this project are in fully from Wikipedia. The website also contains redirect links to this external resource.
+
+### Media
+
+* Vector icons from [Flaticon](https://flaticon.com)
+* Purchased images from [Adobe Stock Images](https://stock.adobe.com)
+* Free images from [Unsplash](https://unsplash.com/)
+* Free images from [Transylvania Facebook Groups](https://www.facebook.com/TransilvaniaMea)
+
+### Acknowledgements
+To create this website, an inspiration but at the same time a source from which I learned many technical elements, was [W3schools](https://www.w3schools.com/). I would also like to thank Twitter for creating Bootstrap which is a magic framework. I would also like to thank the Code Institute instructors who are doing a great job and from where I learned a lot in just a few months. I would also like to thank the colleagues with whom I had discussions on the Slack channels, from where I also had to learn. And last but not least, I thank my mentor [Simen Daehlin](https://github.com/Eventyret).
+
+*This website was created for educational purposes, February 2020.*
