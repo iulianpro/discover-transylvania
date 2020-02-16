@@ -153,7 +153,7 @@ Testing during section development was done primarily with Chrome DevTools, maki
 
 **Visit Section** has been tested across devices and browsers, both physically and using an online tool, Cross Browser Testing tool. Due to the structure that I also have, respectively two columns, where the first contains two other Boostrap rows, this section raised some challenge in the sense of disproportional display in different screen sizes. To balance this, two of the four cards are not displayed in these screens.
 
-I also checked and tested the optimal functioning of the divs overlay display when user hover with mouse or when touching the cards on the touch screens. The result was positive, the effect is functional across devices and browsers. After I decided to implement the icon that suggests the user to touch the screen for the website to display the overlay text, I had to improve the javascript code so that displaying and / or hiding them would be functional only for touch screens and hidden in large screens, desktops and laptops, (```min-width: 992px```). To accomplish this, the respective javascript code segment was moved inside the function that checks the size of the user's screen, the result being the desired one.
+I also checked and tested the optimal functioning of the divs overlay display when user hover with mouse or when touching the cards on the touch screens. The result was positive, the effect is functional across devices and browsers. After I decided to implement the icon that suggests the user to touch the screen for the website to display the overlay text, I had to improve the javascript code so that displaying and / or hiding them would be functional only for touch screens and hidden in large screens, desktops and laptops, ```(min-width: 992px)```. To accomplish this, the respective javascript code segment was moved inside the function that checks the size of the user's screen, the result being the desired one.
 ```
 function hideTouchIcon(minWidth) {
     if (minWidth.matches) {
@@ -167,6 +167,8 @@ function hideTouchIcon(minWidth) {
     }
 }
 ```
+
+**Destinations Section** has been tested across devices and browsers, both physically and using the same online tool, Cross Browser Testing tool. The main challenge in testing this section was to display Window Information in different screen sizes, as they contain both text and images. To solve this problem I decided that in the small screens these windows contain only text, in the medium screens it will contain both text and images and in the big screens it will be displayed including the header with the name of the locations. The technical solution applied was css targeting of the related classes and juggling with the display property in @media query. I also verified and tested across devices and browsers both the functionality of links to external sources and the optimal functioning of the transform zoom effect: scales (1.5); of the images in the window info, the result being a positive one.
 
 ###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
