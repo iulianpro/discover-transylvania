@@ -144,3 +144,26 @@ To create this website, several technologies were used, as well as some framewor
 * Learned from [W3schools](https://www.w3schools.com/)
 
 ###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+
+## Deployment
+For developing this project, I used three resources, GitHub for host the deployed website and repository of all versions, Git that I installed locally and Visual Studio Code, my favorite IDE editor.
+
+To deploying Discover Transylvania using GitHub Pages the following steps were made:
+
+* Opened up GitHub in the browser.
+* Signed in using username and password.
+* In my account GitHub website, I selected Repositories
+* I selected ```discover-transylvania``` from the GitHub Dashboard.
+* I navigated to *Settings* and to the *GitHub Pages* section.
+* From the *Source* subsection, I clicked on the drop-down menu and selected *Master Branch*.
+* Once *Master Branch* is selected, the page has been automatically refreshed, with a detailed ribbon display *GitHub Source Saved Pages* indicating the successful implementation.
+* The link to the website I found in the *GitHub Pages* section, with a ribbon notification that states: 
+```
+Your site is published at https://iulianpro.github.io/discover-transylvania/
+```
+To run locally, you can clone this repository from GitHub directly to your favorite editor, using the green "Clone" button, copying link and  typing in your favorite IDE editor terminal with the following command:
+```
+git clone https://github.com/iulianpro/discover-transylvania.git
+```
+
+###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
