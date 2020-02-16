@@ -180,8 +180,8 @@ From a functional point of view, I tested two aspects. First of all the javascri
 I also tested the website for HTML, CSS and JavaScript code validation with [HTML Validator](https://validator.w3.org/), [CSS Validator](https://jigsaw.w3.org/css-validator/) and [JavaScript Syntax Validator](https://esprima.org/demo/validate.html).
 
 **Cross Browser Testing** results:
-* [iPad Mini 5 / Mobile Chrome](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38100061/1f9d7dc7)
-* [iPad Mini 5 / Mobile Safari](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099869/1da87595)
+* [iPad Mini 5 / Chrome Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38100061/1f9d7dc7)
+* [iPad Mini 5 / Safari Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099869/1da87595)
 * [Android / Edge Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099683/1356d562)
 * [Android / UC Browser](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099557/d158d66b)
 * [Android / Firefox Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099397/74ab8e96)
