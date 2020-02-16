@@ -2,7 +2,7 @@
 
 ![Discover-Transylvania](https://raw.githubusercontent.com/iulianpro/discover-transylvania/master/wireframes/Multi-devices-DT.png)
 
-The main purpose of this website/project in the real world is to promote the Transylvania region, the place where everyone already knows, the legend of Count Dracula was born. Welcome to this page, feel free to read this documentation and browse the website and if you have any questions you can contact me through GitHub, I will answer with pleasure.
+The main purpose of this website/project in the real-world is to promote the Romanian Transylvania region, the place where everyone already knows, the legend of Count Dracula was born. Welcome to this page, feel free to read this documentation and browse the website and if you have any questions you can contact me through GitHub, I will answer with pleasure.
 
 > ## Table of Contents
 * [UX](https://github.com/iulianpro/discover-transylvania#ux)
@@ -35,19 +35,19 @@ Probably the whole world knows the legend of Count Dracula, the famous vampire f
 
 #### Audience goals
 
-* Read relevant information that can help in documenting a possible holidays;
-* To see a landig page that will arouse my curiosity to navigate further;
-* To can easily access and navigate through the website;
-* To easy use a map to get an idea of where I can travel;
-* To can send a message if I want to find out more details about this destination;
+* To read relevant information that can help in documenting a possible holidays;
+* To see a landig page that will arouse their curiosity to navigate further;
+* To they can easily access and navigate through the website;
+* To they easy use a map to get an idea of where they can travel;
+* To they can send a message if they want to find out more details about this destinations;
 
 **Mark Q**: *"I like to spend my vacations in less crowded places, in rustic places, where I can meet ordinary people, observe their daily habits, know the history of the places, the crafts kept from generation to generation, which is why such website that can provide good clues about such travel destination is great."*
 
-**Shellby S**: *"Nowadays, it is quite difficult to find a source of disinterested information and documentation, when the big trusts in this market promote their services through an aggressive marketing policy, selling more or less real promotions. . That's why I appreciate such a website that can offer you good tips for your next vacation destination."*
+**Shellby S**: *"Nowadays, it is quite difficult to find a source of disinterested information and documentation, when the big trusts in this market promote their services through an aggressive marketing policy, selling more or less real promotions. That's why I appreciate such a website that can offer you good tips for your next vacation destination."*
 
 #### Website owner goals
 
-* Tourism promotion of the area where I was born, tourism means income for the community;
+* Tourism promotion of the area where I was born, tourism means income, development and progress for community;
 * Gather information on what types of holidays people are looking for;
 * Receive contact details through use of contact form;
 
@@ -61,15 +61,15 @@ How does this project answer the above questions? By implementing several functi
 
 ### Structure
 
-The structure of this website includes several sections, functionalities with which the user can interact, links to the external documentation resource, relevant images with the locations to be visited, an interactive map, a form by which the user can request additional information and external links to social pages. mediate.
+The structure of this website includes several sections, functionalities with which the user can interact, links to the external documentation resource, relevant images with the locations to be visited, an interactive map, a form by which the user can request additional information and external links to social media pages.
 
-**Landing page** includes the navbar that is positioned at the top of the page and is fixed so that the user has access to the menu at any time and in any section they would see at a moment's notice. For a more enjoyable browsing experience, I used html {scroll-behavior: smooth;} so that navigating from one section to another would be smooth. Also, the left side of the navbar contains the website name and a logo created with Font Awesome. In small screens, the navbar will collapse into a "hamburger" icon. When the icon is clicked, the navbar will expand and show the whole menu. Main image is built with javascript as a slider consisting of several images, with an effect of fade in and fade out.
+**Landing page** includes the navbar that is positioned at the top of the page and is fixed so that the user has access to the menu at any time and in any section they would see at a moment's notice. For a more enjoyable browsing experience, I used html ```{scroll-behavior: smooth;}``` so that navigating from one section to another would be smooth. Also, the left side of the navbar contains the website name and a logo created with Font Awesome. In small screens, the navbar will collapse into a "hamburger" icon. When the icon is clicked, the navbar will expand and show the whole menu. Main image is actually a slider and have been built with JavaScript from several images with an effect of fade in and fade out.
 
-**Visit section** is made up of several "cards" containing images and information about the places that can be seen. With a feature created with javascript, the user can read more details, which are displayed above the cards when positioning the mouse hover or when finger-touching on the touch screens. In order to convey to the user the existence of these functionalities, I have chosen to position in the top-right corner of each card with ```.touch-icon {position: absolute;}``` an icon to suggest that he has this option to read further details. Also, since the overlay functionality has a transparent background, with javascript, the background text and the touch screen icon, they are hidden so that the overlay text can be read easily. The text of both the card and the overlay is adapted with the help of bootstrap so that certain paragraphs are hidden and displayed depending on the resolution of the user's screen. In medium screens (usually tablets) three of the five cards are displayed.
+**Visit section** is made up of several "cards" containing images and information about the places that can be seen. With a feature created with JavaScript, the user can read more details, which are displayed above the cards when positioning the mouse hover or when finger-touching on the touch screens. In order to convey to the user the existence of these functionalities, I have chosen to position in the top-right corner of each card with ```.touch-icon {position: absolute;}``` an icon to suggest that he has this option to read further details. Also, since the overlay functionality has a transparent background, with same JavaScript, the background text and the touch screen icon are hidden when overlay is active so that the overlay text can be read it easily. The text of both the card and the overlay is adapted with Bootstrap so that certain paragraphs are hidden and displayed depending on the resolution of the user's screen. In medium screens (usually tablets) three of from five cards are displayed.
 
-**Destinations section** is built using javascript maps API using custom markers. The main feature of the map is that the user can access every location on the map with a click that opens an infowindow. Infowindow contains images and text that the potential user can visualize thus finding additional information not only about the position on the map of the location, but also additional details related to its history. Also, each infowindow contains at the end a redirect link to an external documentation resource, namely Wikipedia. Given the relatively small size of these windows and implicitly the images contained, I chose to increase them if the user is with the mouse over the image, by implementing an css transition effect with ```.imgbox img:hover {transform scale (1.8);}```. Each imagewindow has a custom background.
+**Destinations section** has been built using JavaScript Maps API using custom markers. The main feature of the map is that the user can access every location on the map with a click that opens an infowindow. Infowindow contains images and text that the potential user can visualize thus finding additional information not only about the position on the map of the location, but also additional details related to its history. Also, each infowindow contains at the end, a redirect link to an external documentation resource, namely Wikipedia. Given the relatively small size of these windows and implicitly the images contained, I chose to increase them if the user is with the mouse over the image, by implementing an css transition effect with ```.imgbox img:hover {transform scale (1.8);}```. Each imagewindow has a custom background.
 
-**Contact section** is a minimalist one that contains a custom boostrap form with a few fields that the user can fill in if he decides to request additional information: first name, last name, email address, user message, and a submit button. The form has live functionality implemented with avascript and an external JS Email resource through which the message can be submitted and sent to the website owner.
+**Contact section** is a minimalist one that contains a custom Boostrap form with a few fields that the user can fill in if he decides to request additional information: first name, last name, email address, user message, and a submit button. The form has live functionality implemented with JavaScript and an external EmailJS resource through which the message can be submitted and sent to the website owner.
 
 **Footer** is a very simple one through which the user has access at hand to the website menu and through which he can also access the social media pages of the Transylvania region of Romania.
 
@@ -83,7 +83,7 @@ The website has been structured as a single page containing several sections, Ho
 
 ### Surface
 
-The color scheme chosen by me is also a minimalist one. The main color used is ```#2b4438```and the color palette was generated using the Adobe Color tool. Color palette used is:
+The color scheme chosen by me is also a minimalist one. The main color used is ![#2b4438](https://placehold.it/50x20/ffffff/2b4438) and the color palette was generated using Adobe Color tool. Color palette used is:
 
 * ![#2b4438](https://placehold.it/75x20/2b4438/2b4438) - #2b4438
 * ![#c9ffe5](https://placehold.it/75x20/c9ffe5/c9ffe5) - #c9ffe5
@@ -154,7 +154,7 @@ Testing during section development was done primarily with Chrome DevTools, maki
 
 **Visit Section** has been tested across devices and browsers, both physically and using an online tool, Cross Browser Testing tool. Due to the structure that I also have, respectively two columns, where the first contains two other Boostrap rows, this section raised some challenge in the sense of disproportional display in different screen sizes. To balance this, two of the four cards are not displayed in these screens.
 
-I also checked and tested the optimal functioning of the divs overlay display when user hover with mouse or when touching the cards on the touch screens. The result was positive, the effect is functional across devices and browsers. After I decided to implement the icon that suggests the user to touch the screen for the website to display the overlay text, I had to improve the javascript code so that displaying and / or hiding them would be functional only for touch screens and hidden in large screens, desktops and laptops, ```(min-width: 992px)```. To accomplish this, the respective javascript code segment was moved inside the function that checks the size of the user's screen, the result being the desired one.
+I also checked and tested the optimal functioning of the divs overlay display when user hover with mouse or when touching the cards on the touch screens. The result was positive, the effect is functional across devices and browsers. After I decided to implement the icon that suggests the user to touch the screen for the website to display the overlay text, I had to improve the JavaScript code so that displaying and / or hiding them would be functional only for touch screens and hidden in large screens, desktops and laptops, ```(min-width: 992px)```. To accomplish this, the respective JavaScript code segment was moved inside the function that checks the size of the user's screen, the result being the desired one.
 ```
 function hideTouchIcon(minWidth) {
     if (minWidth.matches) {
@@ -171,9 +171,9 @@ function hideTouchIcon(minWidth) {
 
 **Destinations Section** has been tested across devices and browsers, both physically and using the same online tool, Cross Browser Testing tool but also the smooth functioning of JavaScript Map API. The main challenge in testing this section was to display Window Information in different screen sizes, as they contain both text and images. To solve this problem I decided that in the small screens these windows contain only text, in the medium screens it will contain both text and images and in the big screens it will be displayed including the header with the name of the locations. The technical solution applied was css targeting of the related classes and juggling with the display property in @media query. I also verified and tested across devices and browsers both the functionality of links to external sources and the optimal functioning of zoom effect with the ```transform: scales (1.5);``` of the images in the window info, the result being a positive one.
 
-**Contact Section** has also been tested both in terms of responsiveness and functionality of the javascript code. The form as structure was built in Bootstrap and the behavior across devices and browsers was tested. I found a less attractive aspect especially in medium screens, which is why I chose to implement responsive dimensions depending on the screen size so that the user can see a balanced content on the page ```<div class="col-md-8 col-lg-6 ">```.
+**Contact Section** has also been tested both in terms of responsiveness and functionality of the JavaScript code. The form as structure was built in Bootstrap and the behavior across devices and browsers was tested. I found a less attractive aspect especially in medium screens, which is why I chose to implement responsive dimensions depending on the screen size so that the user can see a balanced content on the page ```<div class="col-md-8 col-lg-6 ">```.
 
-From a functional point of view, I tested two aspects. First of all the javascript code of validation of the form, considering that all the fields are mandatory to fill. To accomplish this, within the function responsible for sending the message, I have introduced a segment of js code that checks the value of the inputs and in case of null values, it displays customized alert messages. The code was tested with optimal results. Secondly, I tested the functionality of the sending function of the email using the external JS Email resource. During these tests I sent more than 50 messages, so the results was positive, as confirmed by the message displayed by the js console: ```{status: 200, text: "OK"}```
+From a functional point of view, I tested two aspects. First of all the JavaScript code of validation of the form, considering that all the fields are mandatory to fill. To accomplish this, within the function responsible for sending the message, I have introduced a segment of js code that checks the value of the inputs and in case of null values, it displays customized alert messages. The code was tested with optimal results. Secondly, I tested the functionality of the sending function of the email using the external JS Email resource. During these tests I sent more than 50 messages, so the results was positive, as confirmed by the message displayed by the js console: ```{status: 200, text: "OK"}```
 
 **Footer** has been tested to verify responsiveness across devices and browses, the optimal functioning of both internal and external links. External links is open in a new page so that the user does not leave the page on which they are located.
 
