@@ -20,7 +20,7 @@ The main purpose of this website/project in the real world is to promote the Tra
     - [Left to Implement](https://github.com/iulianpro/discover-transylvania#left-to-implement)
 * [Technologies Used](https://github.com/iulianpro/discover-transylvania#technologies-used)
 * [Testing](#)
-* [Deployment](#)
+* [Deployment](https://github.com/iulianpro/discover-transylvania#deployment)
 * [Credits](#)
     - [Content](#)
     - [Media](#)
@@ -161,7 +161,7 @@ To deploying Discover Transylvania using GitHub Pages the following steps were m
 ```
 Your site is published at https://iulianpro.github.io/discover-transylvania/
 ```
-To run locally, you can clone this repository from GitHub directly to your favorite editor, using the green "Clone" button, copying link and  typing in your favorite IDE editor terminal with the following command:
+To run locally, you can clone this repository from GitHub, using the green "Clone" button, copying link and  typing in your favorite IDE editor terminal with the following command:
 ```
 git clone https://github.com/iulianpro/discover-transylvania.git
 ```
