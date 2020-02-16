@@ -113,9 +113,9 @@ As I said above, in the v.02 website version I will include more functionalities
 To create this website, several technologies were used, as well as some frameworks, libraries and tools detailed below:
 
 **Languages:**
-* HTML
-* CSS
-* JavaScript
+* [HTML](https://www.w3schools.com/html/default.asp)
+* [CSS](https://www.w3schools.com/css/default.asp)
+* [JavaScript](https://www.w3schools.com/js/default.asp)
 
 **Libraries & Tools:**
 * [Bootstrap](https://getbootstrap.com/)
