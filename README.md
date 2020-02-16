@@ -177,7 +177,7 @@ From a functional point of view, I tested two aspects. First of all the javascri
 
 **Footer** has been tested to verify responsiveness across devices and browses, the optimal functioning of both internal and external links. External links is open in a new page so that the user does not leave the page on which they are located.
 
-I also tested the website for HTML, CSS and JavaScript code validation with [HTML Validator](https://validator.w3.org/), [CSS Validator](https://jigsaw.w3.org/css-validator/) and [JavaScript Syntax Validator](https://esprima.org/demo/validate.html).
+The website has been also tested for HTML, CSS and JavaScript syntax error checking and code validation with [HTML Validator](https://validator.w3.org/), [CSS Validator](https://jigsaw.w3.org/css-validator/) and [JavaScript Syntax Validator](https://esprima.org/demo/validate.html).
 
 **Cross Browser Testing** results:
 * [iPad Mini 5 / Chrome Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38100061/1f9d7dc7)
