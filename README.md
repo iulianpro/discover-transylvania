@@ -135,6 +135,7 @@ To create this website, several technologies were used, as well as some framewor
 * Simple wireframe maker with [Wireframe](https://wireframe.cc/)
 * [HTML Validator](https://validator.w3.org/)
 * [CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [JavaScript Validator](https://esprima.org/demo/validate.html)
 * [CSS Autoprefixer](https://autoprefixer.github.io/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Git](https://git-scm.com/) installed on local device
@@ -175,6 +176,21 @@ function hideTouchIcon(minWidth) {
 From a functional point of view, I tested two aspects. First of all the javascript code of validation of the form, considering that all the fields are mandatory to fill. To accomplish this, within the function responsible for sending the message, I have introduced a segment of js code that checks the value of the inputs and in case of null values, it displays customized alert messages. The code was tested with optimal results. Secondly, I tested the functionality of the sending function of the email using the external JS Email resource. During these tests I sent more than 50 messages, so the results was positive, as confirmed by the message displayed by the js console: ```{status: 200, text: "OK"}```
 
 **Footer** has been tested to verify responsiveness across devices and browses, the optimal functioning of both internal and external links. External links is open in a new page so that the user does not leave the page on which they are located.
+
+I also tested the website for HTML, CSS and JavaScript code validation with [HTML Validator](https://validator.w3.org/), [CSS Validator](https://jigsaw.w3.org/css-validator/) and [JavaScript Syntax Validator](https://esprima.org/demo/validate.html).
+
+**Cross Browser Testing** results:
+* [iPad Mini 5 / Mobile Chrome](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38100061/1f9d7dc7)
+* [iPad Mini 5 / Mobile Safari](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099869/1da87595)
+* [Android / Edge Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099683/1356d562)
+* [Android / UC Browser](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099557/d158d66b)
+* [Android / Firefox Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099397/74ab8e96)
+* [Android / Chrome Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099221/d6ee1f2d)
+* [Mac OSX 10.14 / Safari](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098923/a45d38ef)
+* [Windows 10 / Chrome](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098101/f9078f5e)
+* [Windows 10 / Opera](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098551/7ef25dd3)
+* [Windows 10 / Edge](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098387/14559a6b)
+* [Windows 10 / Firefox](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098167/de714e0f)
 
 ###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
