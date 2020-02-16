@@ -92,7 +92,7 @@ The color scheme chosen by me is also a minimalist one. The main color used is `
 
 ###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
-## Features
+> ## Features
 
 This v.01 version of the website has some brief features so that user can find general information about Transylvania and locations that be worth to visit. In the future, the website will offer more functionalities such as a section with a more detailed presentation of the places to visit but also others that I have detailed below.
 
@@ -108,7 +108,7 @@ As I said above, in the v.02 website version I will include more functionalities
 
 ###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
-## Technologies Used
+> ## Technologies Used
 
 To create this website, several technologies were used, as well as some frameworks, libraries and tools detailed below:
 
@@ -145,7 +145,11 @@ To create this website, several technologies were used, as well as some framewor
 
 ###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
-## Deployment
+> ## Testing
+(under construction)
+###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+
+> ## Deployment
 For developing this project, I used three resources, GitHub for host the deployed website and repository of all versions, Git that I installed locally and Visual Studio Code, my favorite IDE editor.
 
 To deploying Discover Transylvania using GitHub Pages the following steps were made:
@@ -167,7 +171,7 @@ git clone https://github.com/iulianpro/discover-transylvania.git
 ```
 ###### [(back top to table of contents)](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
-## Credits
+> ## Credits
 
 ### Content
 The texts that were used in this project are in fully from Wikipedia. The website also contains redirect links to this external resource.
