@@ -63,7 +63,7 @@ How does this project answer the above questions? By implementing several functi
 
 The structure of this website includes several sections, functionalities with which the user can interact, links to the external documentation resource, relevant images with the locations to be visited, an interactive map, a form by which the user can request additional information and external links to social media pages.
 
-**Landing page** includes the navbar that is positioned at the top of the page and is fixed so that the user has access to the menu at any time and in any section they would see at a moment's notice. For a more enjoyable browsing experience, I used html ```{scroll-behavior: smooth;}``` so that navigating from one section to another would be smooth. Also, the left side of the navbar contains the website name and a logo created with Font Awesome. In small screens, the navbar will collapse into a "hamburger" icon. When the icon is clicked, the navbar will expand and show the whole menu. Main image is actually a slider and have been built with JavaScript from several images with an effect of fade in and fade out.
+**Landing page** includes the navbar that is positioned at the top of the page and is fixed so that the user has access to the menu at any time and in any section they would see at a moment's notice. For a more enjoyable browsing experience, I used html ``` {scroll-behavior: smooth;}``` so that navigating from one section to another would be smooth. Also, the left side of the navbar contains the website name and a logo created with Font Awesome. In small screens, the navbar will collapse into a "hamburger" icon. When the icon is clicked, the navbar will expand and show the whole menu. Main image is actually a slider and have been built with JavaScript from several images with an effect of fade in and fade out.
 
 **Visit section** is made up of several "cards" containing images and information about the places that can be seen. With a feature created with JavaScript, the user can read more details, which are displayed above the cards when positioning the mouse hover or when finger-touching on the touch screens. In order to convey to the user the existence of these functionalities, I have chosen to position in the top-right corner of each card with ```.touch-icon {position: absolute;}``` an icon to suggest that he has this option to read further details. Also, since the overlay functionality has a transparent background, with same JavaScript, the background text and the touch screen icon are hidden when overlay is active so that the overlay text can be read it easily. The text of both the card and the overlay is adapted with Bootstrap so that certain paragraphs are hidden and displayed depending on the resolution of the user's screen. In medium screens (usually tablets) three of from five cards are displayed.
 
@@ -155,7 +155,7 @@ Testing during section development was done primarily with Chrome DevTools, maki
 **Visit Section** has been tested across devices and browsers, both physically and using an online tool, Cross Browser Testing tool. Due to the structure that I also have, respectively two columns, where the first contains two other Boostrap rows, this section raised some challenge in the sense of disproportional display in different screen sizes. To balance this, two of the four cards are not displayed in these screens.
 
 I also checked and tested the optimal functioning of the divs overlay display when user hover with mouse or when touching the cards on the touch screens. The result was positive, the effect is functional across devices and browsers. After I decided to implement the icon that suggests the user to touch the screen for the website to display the overlay text, I had to improve the JavaScript code so that displaying and / or hiding them would be functional only for touch screens and hidden in large screens, desktops and laptops, ```(min-width: 992px)```. To accomplish this, the respective JavaScript code segment was moved inside the function that checks the size of the user's screen, the result being the desired one.
-```
+```js
 function hideTouchIcon(minWidth) {
     if (minWidth.matches) {
         $('.touch-icon').css({ 'display': 'none' });
@@ -169,24 +169,11 @@ function hideTouchIcon(minWidth) {
 }
 ```
 
-```js
-  import { Component } from '@angular/core';
-  import { MovieService } from './services/movie.service';
+**Destinations Section** has been tested across devices and browsers, both physically and using the same online tool, Cross Browser Testing tool but also the smooth functioning of JavaScript Map API. The main challenge in testing this section was to display Window Information in different screen sizes, as they contain both text and images. To solve this problem I decided that in the small screens these windows contain only text, in the medium screens it will contain both text and images and in the big screens it will be displayed including the header with the name of the locations. The technical solution applied was css targeting of the related classes and juggling with the display property in @media query. I also verified and tested across devices and browsers both the functionality of links to external sources and the optimal functioning of zoom effect with the ```transform: scales (1.8);``` of the images in the window info, the result being a positive one.
 
-  @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css'],
-    providers: [ MovieService ]
-  })
-  export class AppComponent {
-    title = 'app works!';
-  }
+**Contact Section** has also been tested both in terms of responsiveness and functionality of the JavaScript code. The form as structure was built in Bootstrap and the behavior across devices and browsers was tested. I found a less attractive aspect especially in medium screens, which is why I chose to implement responsive dimensions depending on the screen size so that the user can see a balanced content on the page ```html 
+<div class="col-md-8 col-lg-6 ">
 ```
-
-**Destinations Section** has been tested across devices and browsers, both physically and using the same online tool, Cross Browser Testing tool but also the smooth functioning of JavaScript Map API. The main challenge in testing this section was to display Window Information in different screen sizes, as they contain both text and images. To solve this problem I decided that in the small screens these windows contain only text, in the medium screens it will contain both text and images and in the big screens it will be displayed including the header with the name of the locations. The technical solution applied was css targeting of the related classes and juggling with the display property in @media query. I also verified and tested across devices and browsers both the functionality of links to external sources and the optimal functioning of zoom effect with the ```transform: scales (1.5);``` of the images in the window info, the result being a positive one.
-
-**Contact Section** has also been tested both in terms of responsiveness and functionality of the JavaScript code. The form as structure was built in Bootstrap and the behavior across devices and browsers was tested. I found a less attractive aspect especially in medium screens, which is why I chose to implement responsive dimensions depending on the screen size so that the user can see a balanced content on the page ```<div class="col-md-8 col-lg-6 ">```.
 
 From a functional point of view, I tested two aspects. First of all the JavaScript code of validation of the form, considering that all the fields are mandatory to fill. To accomplish this, within the function responsible for sending the message, I have introduced a segment of js code that checks the value of the inputs and in case of null values, it displays customized alert messages. The code was tested with optimal results. Secondly, I tested the functionality of the sending function of the email using the external JS Email resource. During these tests I sent more than 50 messages, so the results was positive, as confirmed by the message displayed by the js console: ```{status: 200, text: "OK"}```
 
