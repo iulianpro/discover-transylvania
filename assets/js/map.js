@@ -21,7 +21,7 @@ function initMap() {
 
 // define variables for map
 
-if(window.matchMedia('(min-width: 768px)').matches) {
+if (window.matchMedia('(min-width: 768px)').matches) {
     mainZoom = 8;
 } else {
     mainZoom = 7;
