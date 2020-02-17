@@ -90,7 +90,7 @@ The color scheme chosen by me is also a minimalist one. The main color used is #
 * ![#ffebe8](https://placehold.it/75x20/ffebe8/ffebe8) - #ffebe8
 * ![#782b1e](https://placehold.it/75x20/782b1e/782b1e) - #782b1e
 
-### [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+### ![#2b4438](https://placehold.it/800x20/ffffff/ffffff) [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
 > ## Features
 
@@ -106,7 +106,7 @@ This v.01 version of the website has some brief features so that user can find g
 
 As I said above, in the v.02 website version I will include more functionalities such as a section with a more detailed presentation of places to visit, presentation of locations in the surroundings of those already presented, ways to reach them, details about accommodation places, restaurants, caffees shops, different cultural events but also others.
 
-### [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+### ![#2b4438](https://placehold.it/800x20/ffffff/ffffff) [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
 > ## Technologies Used
 
@@ -144,7 +144,7 @@ To create this website, several technologies were used, as well as some framewor
 * Testing with [Cross Browser Testing](https://app.crossbrowsertesting.com/test-center)
 * Learned from [W3schools](https://www.w3schools.com/)
 
-### [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+### ![#2b4438](https://placehold.it/800x20/ffffff/ffffff) [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
 > ## Testing
 
@@ -192,7 +192,7 @@ The website has been also tested for HTML, CSS and JavaScript syntax error check
 * [Windows 10 / Edge](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098387/14559a6b)
 * [Windows 10 / Firefox](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098167/de714e0f)
 
-### [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+### ![#2b4438](https://placehold.it/800x20/ffffff/ffffff) [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
 > ## Deployment
 For developing this project, I used three resources, GitHub for host the deployed website and repository of all versions, Git that I installed locally and Visual Studio Code, my favorite IDE editor.
@@ -214,7 +214,7 @@ To run locally, you can clone this repository from GitHub, using the green "Clon
 ```
 git clone https://github.com/iulianpro/discover-transylvania.git
 ```
-### [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+### ![#2b4438](https://placehold.it/800x20/ffffff/ffffff) [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
 > ## Credits
 
@@ -233,4 +233,4 @@ To create this website, an inspiration but at the same time a source from which 
 
 *This website was created for educational purposes, February 2020.*
 
-### ![#2b4438](https://placehold.it/700x20/ffffff/ffffff) [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+### ![#2b4438](https://placehold.it/800x20/ffffff/ffffff) [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
