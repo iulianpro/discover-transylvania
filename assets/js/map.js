@@ -2,7 +2,7 @@
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 7.5,
+        zoom: mainZoom,
         center: mainLocation,
         mapTypeControl: true,
         mapTypeControlOptions: {
@@ -17,6 +17,12 @@ function initMap() {
     });
 
     addMarker();
+}
+
+if(window.matchMedia('(min-width: 768px)').matches) {
+    mainZoom = 8;
+} else {
+    mainZoom = 7;
 }
 
 // define variables for map
