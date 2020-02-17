@@ -173,7 +173,7 @@ function hideTouchIcon(minWidth) {
 
 At a deep test, I noticed that not all markers are visible when loading the map on different screens. To solve this issue, I set in the JavaScript code a different zoom for screens smaller than 768px, respectively 7, and a zoom of 8 for screens larger or equal to 768px. The result was as expected, both in the small screens and in the medium and large screens, the markers are visible and with a balanced framing on the screen.
 ```js
-if(window.matchMedia('(min-width: 768px)').matches) {
+if (window.matchMedia('(min-width: 768px)').matches) {
     mainZoom = 8;
 } else {
     mainZoom = 7;
