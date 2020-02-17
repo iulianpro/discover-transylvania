@@ -83,7 +83,7 @@ The website has been structured as a single page containing several sections, Ho
 
 ### Surface
 
-The color scheme chosen by me is also a minimalist one. The main color used is #2b4438(&#2b4438) and the color palette was generated using Adobe Color tool. Color palette used is:
+The color scheme chosen by me is also a minimalist one. The main color used is #2b4438 and the color palette was generated using Adobe Color tool. Color palette used is:
 
 * ![#2b4438](https://placehold.it/75x20/2b4438/2b4438) - #2b4438
 * ![#c9ffe5](https://placehold.it/75x20/c9ffe5/c9ffe5) - #c9ffe5
