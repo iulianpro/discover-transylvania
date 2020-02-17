@@ -19,13 +19,13 @@ function initMap() {
     addMarker();
 }
 
+// define variables for map
+
 if(window.matchMedia('(min-width: 768px)').matches) {
     mainZoom = 8;
 } else {
     mainZoom = 7;
 }
-
-// define variables for map
 
 let map;
 let infoLocation = [];
