@@ -83,7 +83,7 @@ The website has been structured as a single page containing several sections, Ho
 
 ### Surface
 
-The color scheme chosen by me is also a minimalist one. The main color used is ![#2b4438](https://placehold.it/75x20/2b4438/ffffff/?Text=#2b4438) and the color palette was generated using Adobe Color tool. Color palette used is:
+The color scheme chosen by me is also a minimalist one. The main color used is #2b4438(&#2b4438) and the color palette was generated using Adobe Color tool. Color palette used is:
 
 * ![#2b4438](https://placehold.it/75x20/2b4438/2b4438) - #2b4438
 * ![#c9ffe5](https://placehold.it/75x20/c9ffe5/c9ffe5) - #c9ffe5
@@ -167,6 +167,21 @@ function hideTouchIcon(minWidth) {
         });
     }
 }
+```
+
+```js
+  import { Component } from '@angular/core';
+  import { MovieService } from './services/movie.service';
+
+  @Component({
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+    providers: [ MovieService ]
+  })
+  export class AppComponent {
+    title = 'app works!';
+  }
 ```
 
 **Destinations Section** has been tested across devices and browsers, both physically and using the same online tool, Cross Browser Testing tool but also the smooth functioning of JavaScript Map API. The main challenge in testing this section was to display Window Information in different screen sizes, as they contain both text and images. To solve this problem I decided that in the small screens these windows contain only text, in the medium screens it will contain both text and images and in the big screens it will be displayed including the header with the name of the locations. The technical solution applied was css targeting of the related classes and juggling with the display property in @media query. I also verified and tested across devices and browsers both the functionality of links to external sources and the optimal functioning of zoom effect with the ```transform: scales (1.5);``` of the images in the window info, the result being a positive one.
