@@ -1,5 +1,10 @@
 $(document).ready(function () {
 
+    // close collapsed nav-bar on nav-item click
+    $('.navbar-nav li').click(function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+
     // defined images slide array
     const imgs = ['visit-1.jpg', 'visit-2.jpg', 'visit-3.jpg', 'visit-4.jpg', 'visit-5.jpg', 'main-image.jpg'];
 
