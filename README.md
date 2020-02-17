@@ -233,4 +233,4 @@ To create this website, an inspiration but at the same time a source from which 
 
 *This website was created for educational purposes, February 2020.*
 
-### [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
+### ![#2b4438](https://placehold.it/50x700/ffffff/ffffff) [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
