@@ -2,7 +2,7 @@
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 7.9,
+        zoom: 7.5,
         center: mainLocation,
         mapTypeControl: true,
         mapTypeControlOptions: {
@@ -25,7 +25,7 @@ let map;
 let infoLocation = [];
 let mainLocation = {
     lat: 46.48502588469381,
-    lng: 24.657045361236673
+    lng: 24.257045361236673
 };
 
 let markerPlace = [{
