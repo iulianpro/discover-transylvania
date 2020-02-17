@@ -171,6 +171,15 @@ function hideTouchIcon(minWidth) {
 
 **Destinations Section** has been tested across devices and browsers, both physically and using the same online tool, Cross Browser Testing tool but also the smooth functioning of JavaScript Map API. The main challenge in testing this section was to display Window Information in different screen sizes, as they contain both text and images. To solve this problem I decided that in the small screens these windows contain only text, in the medium screens it will contain both text and images and in the big screens it will be displayed including the header with the name of the locations. The technical solution applied was css targeting of the related classes and juggling with the display property in @media query. I also verified and tested across devices and browsers both the functionality of links to external sources and the optimal functioning of zoom effect with the ```transform: scales (1.8);``` of the images in the window info, the result being a positive one.
 
+At a deep test, I noticed that not all markers are visible when loading the map on different screens. To solve this issue, I set in the JavaScript code a different zoom for screens smaller than 768px, respectively 7, and a zoom of 8 for screens larger or equal to 768px. The result was as expected, both in the small screens and in the medium and large screens, the markers are visible and with a balanced framing on the screen.
+```js
+if(window.matchMedia('(min-width: 768px)').matches) {
+    mainZoom = 8;
+} else {
+    mainZoom = 7;
+}
+```
+
 **Contact Section** has also been tested both in terms of responsiveness and functionality of the JavaScript code. The form as structure was built in Bootstrap and the behavior across devices and browsers was tested. I found a less attractive aspect especially in medium screens, which is why I chose to implement responsive dimensions depending on the screen size so that the user can see a balanced content on the page ```<div class="col-md-8 col-lg-6 ">```.
 
 From a functional point of view, I tested two aspects. First of all the JavaScript code of validation form, considering that all the fields are mandatory to fill. To accomplish this, within the function responsible for sending the message, I have introduced a segment of JS code that checks the value of the inputs and in case of null values, it displays customized alert messages. The code was tested with optimal results. Secondly, I tested the functionality of the sending function of the email using the external EmailJS resource. During these tests I sent it more than 50 messages, so the results was positive, as confirmed by the message displayed by the JS console: ```{status: 200, text: "OK"}```
