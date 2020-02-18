@@ -114,7 +114,7 @@ function addMarker() {
             '</h4><div class="imgbox"><img class="imgContent" src="assets/images/' +
             markerPlace[i].imgLocation + '"></div><div class="infoContent"><p>' +
             markerPlace[i].contentLocationOne + '</p><p class="infoContent">' +
-            markerPlace[i].contentLocationTwo + '<a target="_blank" href="' +
+            markerPlace[i].contentLocationTwo + '<a target="_blank" rel="noopener" href="' +
             markerPlace[i].redirectLink + '">(read more)</a></p></div></div>';
 
         const marker = new google.maps.Marker({
