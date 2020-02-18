@@ -236,26 +236,26 @@
                 <form name="myForm" onsubmit="return sendMail(this);">
                     <div class="form-row mb-3">
                         <div class="col">
-                            <input type="text" class="form-control" name="fname" placeholder="First name *">
+                            <input aria-label="First Name" type="text" class="form-control" name="fname" placeholder="First name *">
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" name="name" placeholder="Last name *">
-                        </div>
-                    </div>
-                    <div class="form-row mb-3">
-                        <div class="col">
-                            <input type="text" class="form-control" name="emailaddress" placeholder="Email *">
+                            <input aria-label="Last Name" type="text" class="form-control" name="name" placeholder="Last name *">
                         </div>
                     </div>
                     <div class="form-row mb-3">
                         <div class="col">
-                            <textarea class="form-control" name="dtnewemail" rows="3"
+                            <input aria-label="Email Address" type="text" class="form-control" name="emailaddress" placeholder="Email *">
+                        </div>
+                    </div>
+                    <div class="form-row mb-3">
+                        <div class="col">
+                            <textarea aria-label="Type Message" class="form-control" name="dtnewemail" rows="3"
                                 placeholder="Your message *"></textarea>
                         </div>
                     </div>
                     <div class="form-row text-center mb-3">
                         <div class="col">
-                            <button type="submit" class="bttn center-block">Send message</button>
+                            <button aria-label="Submit" type="submit" class="bttn center-block">Send message</button>
                         </div>
                     </div>
                 </form>
