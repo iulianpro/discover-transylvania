@@ -182,8 +182,6 @@ The website has been also tested for HTML, CSS and JavaScript syntax error check
 
 **Cross Browser Testing** results:
 
-|Mobile              |Desktop/Laptop               |
-|------|-------|-------|-------|
 |iOs      |Android       |MacOSX       |Windows       |
 |------|-------|-------|-------|
 |[iPad / Chrome](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38100061/1f9d7dc7)      |[Android / Edge](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099683/1356d562)       |[MacOSX / Safari](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098923/a45d38ef)       |[Windows 10 / Chrome](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098101/f9078f5e)       |
