@@ -181,17 +181,15 @@ The code was tested with optimal results. Secondly, I tested the functionality o
 The website has been also tested for HTML, CSS and JavaScript syntax error checking and code validation with [HTML Validator](https://validator.w3.org/), [CSS Validator](https://jigsaw.w3.org/css-validator/) and [JavaScript Syntax Validator](https://esprima.org/demo/validate.html).
 
 **Cross Browser Testing** results:
-* [iPad Mini 5 / Chrome Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38100061/1f9d7dc7)
-* [iPad Mini 5 / Safari Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099869/1da87595)
-* [Android / Edge Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099683/1356d562)
-* [Android / UC Browser](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099557/d158d66b)
-* [Android / Firefox Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099397/74ab8e96)
-* [Android / Chrome Mobile](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099221/d6ee1f2d)
-* [Mac OSX 10.14 / Safari](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098923/a45d38ef)
-* [Windows 10 / Chrome](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098101/f9078f5e)
-* [Windows 10 / Opera](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098551/7ef25dd3)
-* [Windows 10 / Edge](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098387/14559a6b)
-* [Windows 10 / Firefox](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098167/de714e0f)
+
+|Mobile              |Desktop/Laptop               |
+|------|-------|-------|-------|
+|iOs      |Android       |MacOSX       |Windows       |
+|------|-------|-------|-------|
+|[iPad / Chrome](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38100061/1f9d7dc7)      |[Android / Edge](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099683/1356d562)       |[MacOSX / Safari](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098923/a45d38ef)       |[Windows 10 / Chrome](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098101/f9078f5e)       |
+|[iPad/ Safari](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099869/1da87595)      |[Android / UC Browser](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099557/d158d66b)       |       |[Windows 10 / Opera](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098551/7ef25dd3)       |
+|      |[Android / Firefox](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099397/74ab8e96)       |       |[Windows 10 / Edge](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098387/14559a6b)       |
+|      |[Android / Chrome](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38099221/d6ee1f2d)       |       |[Windows 10 / Firefox](https://app.crossbrowsertesting.com/public/ic5e1fd8f17a0a91/livetests/38098167/de714e0f)       |
 
 ### ![#2b4438](https://placehold.it/800x20/ffffff/ffffff) [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
