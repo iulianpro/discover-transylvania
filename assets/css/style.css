@@ -252,8 +252,6 @@ body {
     transform: scale(1.5);
 }
 
-/* end styled google map classes */
-
 @media (min-width: 576px) {
     .gm-style-iw.gm-style-iw-c {
         padding-top: 25px;
@@ -264,6 +262,8 @@ body {
         padding-right: 25px;
     }
 }
+
+/* end styled google map classes */
 
 @media (min-width: 768px) {
     .imgContent {
