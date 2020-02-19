@@ -126,10 +126,8 @@ To create this website, several technologies were used, as well as some framewor
 |   |[Sweet Alert](https://sweetalert.js.org/guides/)   |[Google Fonts](https://fonts.google.com/)   |[Iloveimg](https://www.iloveimg.com/crop-image)   |[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)   |
 |   |   |   |[Hnet](https://hnet.com/png-to-ico/)   |[W3schools](https://www.w3schools.com/)   |
 |   |   |   |[CSS Autoprefixer](https://autoprefixer.github.io/)   |[Adobe Color](https://color.adobe.com/create)   |
-|   |   |   |[Eye Dropper](http://eye-dropper.kepi.cz/)   |   |
-|   |   |   |[Wireframe](https://wireframe.cc/)   |   |
-|   |   |   |[HTML Validator](https://validator.w3.org/)   |   |
-|   |   |   |[CSS Validator](https://jigsaw.w3.org/css-validator/)   |   |
+|   |   |   |[HTML Validator](https://validator.w3.org/)   |[Eye Dropper](http://eye-dropper.kepi.cz/)   |
+|   |   |   |[CSS Validator](https://jigsaw.w3.org/css-validator/)   |[Wireframe](https://wireframe.cc/)   |
 |   |   |   |[JavaScript Validator](https://esprima.org/demo/validate.html)   |   |
 
 ### ![#2b4438](https://placehold.it/800x20/ffffff/ffffff) [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
