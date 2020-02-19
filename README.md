@@ -222,16 +222,16 @@ To deploying Discover Transylvania using GitHub Pages the following steps were m
 
 * Opened up GitHub in the browser.
 * Signed in using username and password.
-* In my account GitHub website, I selected Repositories
-* I selected ```discover-transylvania``` from the GitHub Dashboard.
-* I navigated to *Settings* and to the *GitHub Pages* section.
-* From the *Source* subsection, I clicked on the drop-down menu and selected *Master Branch*.
+* Selected Repositories
+* Selected ```discover-transylvania``` from the GitHub Dashboard.
+* Navigated to *Settings* and to the *GitHub Pages* section.
+* From the *Source* subsection, clicked on the drop-down menu and selected *Master Branch*.
 * Once *Master Branch* is selected, the page has been automatically refreshed, with a detailed ribbon display *GitHub Source Saved Pages* indicating the successful implementation.
-* The link to the website I found in the *GitHub Pages* section, with a ribbon notification that states: 
+* The link to the website founded in the *GitHub Pages* section, with a ribbon notification that states: 
 ```
 Your site is published at https://iulianpro.github.io/discover-transylvania/
 ```
-To run locally, you can clone this repository from GitHub, using the green "Clone" button, copying link and  typing in your favorite IDE editor terminal with the following command:
+To run locally, you can clone this repository from GitHub, using the green "Clone" button, copying link and typing in your favorite IDE editor terminal with the following command:
 ```
 git clone https://github.com/iulianpro/discover-transylvania.git
 ```
