@@ -124,11 +124,11 @@ To create this website, several technologies were used, as well as some framewor
 |[CSS](https://www.w3schools.com/css/default.asp)   |[jQuery](https://jquery.com/)   |[Flaticon](https://www.flaticon.com/)   |[Tinyjpg](https://tinyjpg.com/)   |[Git](https://git-scm.com/)   |
 |[JavaScript](https://www.w3schools.com/js/default.asp)   |[Popper.js](https://popper.js.org/)   |[Font Awesome](https://fontawesome.com)   |[Cross Browser Testing](https://app.crossbrowsertesting.com/test-center)   |[GitHub](https://github.com/)   |
 |   |[Sweet Alert](https://sweetalert.js.org/guides/)   |[Google Fonts](https://fonts.google.com/)   |[Iloveimg](https://www.iloveimg.com/crop-image)   |[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)   |
-|   |   |   |[Hnet](https://hnet.com/png-to-ico/)   |[W3schools](https://www.w3schools.com/)   |
+|   |   |   |[JavaScript Validator](https://esprima.org/demo/validate.html)   |[W3schools](https://www.w3schools.com/)   |
 |   |   |   |[CSS Autoprefixer](https://autoprefixer.github.io/)   |[Adobe Color](https://color.adobe.com/create)   |
 |   |   |   |[HTML Validator](https://validator.w3.org/)   |[Eye Dropper](http://eye-dropper.kepi.cz/)   |
 |   |   |   |[CSS Validator](https://jigsaw.w3.org/css-validator/)   |[Wireframe](https://wireframe.cc/)   |
-|   |   |   |[JavaScript Validator](https://esprima.org/demo/validate.html)   |   |
+|   |   |   |[Hnet](https://hnet.com/png-to-ico/)   |   |
 
 ### ![#2b4438](https://placehold.it/800x20/ffffff/ffffff) [⬆](https://github.com/iulianpro/discover-transylvania#table-of-contents)
 
