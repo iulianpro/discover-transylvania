@@ -6,10 +6,9 @@ The main purpose of this website/project in the real-world is to promote the Rom
 
 > ## Table of Contents
 * [UX](https://github.com/iulianpro/discover-transylvania#ux)
-    - [User stories](https://github.com/iulianpro/discover-transylvania#user-stories)
-        - [Project goals](https://github.com/iulianpro/discover-transylvania#project-goals)
-        - [Audience goals](https://github.com/iulianpro/discover-transylvania#audience-goals)
-        - [Website owner goals](https://github.com/iulianpro/discover-transylvania#website-owner-goals)
+    - [Project goals](https://github.com/iulianpro/discover-transylvania#project-goals)
+    - [Audience goals](https://github.com/iulianpro/discover-transylvania#audience-goals)
+    - [Website owner goals](https://github.com/iulianpro/discover-transylvania#website-owner-goals)
     - [Strategy](https://github.com/iulianpro/discover-transylvania#strategy)
     - [Scope](https://github.com/iulianpro/discover-transylvania#scope)
     - [Structure](https://github.com/iulianpro/discover-transylvania#structure)
@@ -28,12 +27,11 @@ The main purpose of this website/project in the real-world is to promote the Rom
 
 > ## UX
 
-### User stories
-#### Project goals
+### Project goals
 
 Probably the whole world knows the legend of Count Dracula, the famous vampire from a distant and uncertain world called Transylvania, a character created by the famous Bram Stoker in the eponymous novel, about which there have been countless films, serials, comics and many more. Equally likely is the fact that many people do not know this area, today's Transylvania, a region of Romania with a rich historical heritage, wonderful landscapes, with a flora and fauna that does not exist today in other parts of Europe, with craftsmanship ancestors, who also enchanted *His Royal Highness, Prince of Wales, Charles*. Through this project, the user will be awakened the interest to document and visit some other tourist attractions in Transylvania, besides the castle of Count Dracula, Bran.
 
-#### Audience goals
+### Audience goals
 
 * To read relevant information that can help in documenting a possible holidays;
 * To see a landig page that will arouse their curiosity to navigate further;
@@ -45,7 +43,7 @@ Probably the whole world knows the legend of Count Dracula, the famous vampire f
 
 **Shellby S**: *"Nowadays, it is quite difficult to find a source of disinterested information and documentation, when the big trusts in this market promote their services through an aggressive marketing policy, selling more or less real promotions. That's why I appreciate such a website that can offer you good tips for your next vacation destination."*
 
-#### Website owner goals
+### Website owner goals
 
 * Tourism promotion of the area where I was born, tourism means income, development and progress for community;
 * Gather information on what types of holidays people are looking for;
