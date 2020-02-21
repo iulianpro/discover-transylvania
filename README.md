@@ -123,7 +123,7 @@ To create this website, several technologies were used, as well as some framewor
 |[HTML](https://www.w3schools.com/html/default.asp)   |[Bootstrap](https://getbootstrap.com/)   |[Google Maps](https://developers.google.com/maps/documentation/javascript/tutorial)   |[EmailJS](https://www.emailjs.com/)   |[Visual Studio Code](https://code.visualstudio.com/)   |
 |[CSS](https://www.w3schools.com/css/default.asp)   |[jQuery](https://jquery.com/)   |[Flaticon](https://www.flaticon.com/)   |[Tinyjpg](https://tinyjpg.com/)   |[Git](https://git-scm.com/)   |
 |[JavaScript](https://www.w3schools.com/js/default.asp)   |[Popper.js](https://popper.js.org/)   |[Font Awesome](https://fontawesome.com)   |[Cross Browser Testing](https://app.crossbrowsertesting.com/test-center)   |[GitHub](https://github.com/)   |
-|   |[Sweet Alert](https://sweetalert.js.org/guides/)   |[Google Fonts](https://fonts.google.com/)   |[Iloveimg](https://www.iloveimg.com/crop-image)   |[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)   |
+|[JSON](https://www.json.org/json-en.html)   |[Sweet Alert](https://sweetalert.js.org/guides/)   |[Google Fonts](https://fonts.google.com/)   |[Iloveimg](https://www.iloveimg.com/crop-image)   |[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)   |
 |   |   |   |[JavaScript Validator](https://esprima.org/demo/validate.html)   |[W3schools](https://www.w3schools.com/)   |
 |   |   |   |[CSS Autoprefixer](https://autoprefixer.github.io/)   |[Adobe Color](https://color.adobe.com/create)   |
 |   |   |   |[HTML Validator](https://validator.w3.org/)   |[Eye Dropper](http://eye-dropper.kepi.cz/)   |
