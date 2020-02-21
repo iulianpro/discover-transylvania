@@ -65,17 +65,15 @@ $(document).ready(function () {
 });
 
 /**
- * Function to send email from form with external js EmailJS
+ * Function to send email from form with external javascript EmailJS 
+ * after input validate, custom feature from a Code Institute lesson
  */
 function sendMail(mailMeForm) {
-    let checkLname = document.forms["myForm"]["fname"].value;
+    let checkLname = document.forms["myForm"]["fname"].value; // not collect in email
     let checkName = document.forms["myForm"]["name"].value;
     let emailAdd = document.forms["myForm"]["emailaddress"].value;
     let theMessage = document.forms["myForm"]["dtnewemail"].value;
 
-    /**
-     * Validate input form
-     */
     if (checkLname == '') {
         swal('Hey buddy', 'What is your firs name?');
         return false;
@@ -90,7 +88,6 @@ function sendMail(mailMeForm) {
         return false;
     }
 
-    // Send email, feature from a Code Institute lesson
     emailjs.send("gmail", "first_test_template", {
         "from_name": mailMeForm.name.value,
         "from_email": mailMeForm.emailaddress.value,
