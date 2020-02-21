@@ -78,10 +78,13 @@ function sendMail(mailMeForm) {
      */
     if (checkLname == '') {
         swal('Hey buddy', 'What is your firs name?');
+        return false;
     } else if (checkName == '') {
         swal('Nice to meet you ' + checkLname, 'We\'d love to know your family name');
+        return false;
     } else if (emailAdd == '') {
         swal('Okay ' + checkLname + ' ' + checkName, 'At what email address should we respond to you?');
+        return false;
     } else if (theMessage == '') {
         swal('One more thing', 'What is your curiosity? We can\'t wait to find out.');
         return false;
