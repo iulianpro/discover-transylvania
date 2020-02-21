@@ -48,7 +48,7 @@ function initMap() {
  * Import data from .json file
  */
 
-$.getJSON("assets/data/locations.json", function (data) {
+$.getJSON('assets/data/locations.json', function (data) {
     $.each(data, function (index, value) {
         markerPlaceData.push(value);
     });
@@ -99,7 +99,7 @@ function addMarker() {
 
 function closePreviousArea() {
     if (infoLocation.length > 0) {
-        infoLocation[0].set("marker", null);
+        infoLocation[0].set('marker', null);
         infoLocation[0].close();
         infoLocation.length = 0;
     }
