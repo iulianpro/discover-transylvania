@@ -1,17 +1,25 @@
 $(document).ready(function () {
 
-    // close collapsed nav-bar on nav-item click
+    /**
+     * Close collapsed nav-bar on nav-item click
+     */
     $('.navbar-nav li').click(function () {
         $('.navbar-collapse').collapse('hide');
     });
 
-    // defined images slide array
+    /**
+     * Defined images slide array
+     */
     const imgs = ['visit-1.jpg', 'visit-2.jpg', 'visit-3.jpg', 'visit-4.jpg', 'visit-5.jpg', 'main-image.jpg'];
 
-    // targeting DOM element where to show slide
+    /**
+     * Targeting DOM element where to show slide
+     */
     $('.callout-img').fadeIn(0, changeSlider());
 
-    // function to show images in continuously slide
+    /**
+     * function to show images in continuously slide
+     */
     function changeSlider() {
         setTimeout(function () {
             let path = imgs[imgs.push(imgs.shift()) - 1];
@@ -23,7 +31,9 @@ $(document).ready(function () {
         });
     }
 
-    // function to targeting DOM element where to show overlay content and hide card body text
+    /**
+     * Function to targeting DOM element where to show overlay content and hide card body text
+     */
     $('.card-area').hover(function () {
         $(this).children('.overlay-d-none').css({ 'display': 'flex' });    // over
         $(this).children('.card-body').css({ 'color': '#c0f8ea' });
@@ -33,8 +43,11 @@ $(document).ready(function () {
         $('.card-body').css({ 'color': '#4d4d4d' });
     });
 
-    // function to targeting DOM element to show/hide touch screen icon in xs, sm and md displays and hide in lg and xl displays
-    function hideTouchIcon(minWidth) {
+    /**
+     * Function to targeting DOM element to show/hide touch screen icon 
+     * in xs, sm and md displays and hide in lg and xl displays
+     */
+     function hideTouchIcon(minWidth) {
         if (minWidth.matches) {
             $('.touch-icon').css({ 'display': 'none' });
         } else {
@@ -51,29 +64,30 @@ $(document).ready(function () {
     minWidth.addListener(hideTouchIcon);
 });
 
-// function to send email from form with external js EmailJS
+/**
+ * Function to send email from form with external js EmailJS
+ */
 function sendMail(mailMeForm) {
     let checkLname = document.forms["myForm"]["fname"].value;
     let checkName = document.forms["myForm"]["name"].value;
     let emailAdd = document.forms["myForm"]["emailaddress"].value;
     let theMessage = document.forms["myForm"]["dtnewemail"].value;
 
-    // validate input form
+    /**
+     * Validate input form
+     */
     if (checkLname == '') {
         swal('Hey buddy', 'What is your firs name?');
-        return false;
     } else if (checkName == '') {
         swal('Nice to meet you ' + checkLname, 'We\'d love to know your family name');
-        return false;
     } else if (emailAdd == '') {
         swal('Okay ' + checkLname + ' ' + checkName, 'At what email address should we respond to you?');
-        return false;
     } else if (theMessage == '') {
         swal('One more thing', 'What is your curiosity? We can\'t wait to find out.');
         return false;
     }
 
-    // send email
+    // Send email, feature from a Code Institute lesson
     emailjs.send("gmail", "first_test_template", {
         "from_name": mailMeForm.name.value,
         "from_email": mailMeForm.emailaddress.value,
